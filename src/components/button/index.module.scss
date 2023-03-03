@@ -1,0 +1,40 @@
+@import "../../variables.scss";
+
+.button {
+  font-size: 18px;
+  color: var(--color-white);
+  border: none;
+  text-decoration: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  text-align: center;
+  font-weight: 600;
+  border-radius: 18px;
+  padding: 26px 0;
+  cursor: pointer;
+  &:after {
+    display: block;
+    height: 21px;
+    margin-top: 3px;
+  }
+  &.primary {
+    background-color: var(--primary-2);
+    &:after {
+      content: url("../../assets/primary-color-arrow.svg");
+    }
+  }
+  &.secendary {
+    background-color: var(--primary-1);
+    &:after {
+      content: url("../../assets/secendary-color-arrow.svg");
+    }
+  }
+  &.default {
+    width: 250px;
+  }
+  &.large {
+    width: 290px;
+  }
+}

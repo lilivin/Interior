@@ -1,0 +1,10 @@
+@import "../../../../variables.scss";
+
+.item{
+    font-size: var(--font-size-3);
+    margin: 15px 0;
+    a{
+        text-decoration: none;
+        color: var(--primary-2)
+    }
+}

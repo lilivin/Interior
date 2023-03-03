@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+@import '../../variables.scss';
+
+
+.header{
+    color: var(--primary-2);
+    font-family: var(--font-2);
+    &.header01{
+        font-size: 50px;
+    }
+    &.header02{
+        font-size: 35px;
+    }
+    &.header03{
+        font-size: 25px;
+    }
+    &.header04{
+        font-size: 22px;
+    }
+    &.header05{
+        font-size: 20px;
+    }
+    &.header06{
+        font-size: 18px;
+    }
+}

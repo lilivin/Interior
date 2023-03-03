@@ -1,0 +1,15 @@
+.footer{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    width: 1200px;
+    gap: 40px;
+    margin: 0 auto;
+}
+
+.column{
+    width: 22%;
+    &:nth-of-type(1){
+        width: 33%
+    }
+}

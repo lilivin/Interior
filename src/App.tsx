@@ -1,24 +1,38 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import styles from "./app.module.scss";
+import Button, { ButtonSize, ButtonStyles } from "./components/button";
+import Footer from "./components/footer";
+import Header, { HeaderType } from "./components/header";
 
 function App() {
+  function handleFunction() {
+    console.log("test");
+  }
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className={styles.app}>
+      <Header type={HeaderType.Header01}>Header</Header>
+      <Header type={HeaderType.Header02}>Header</Header>
+      <Header type={HeaderType.Header03}>Header</Header>
+      <Header type={HeaderType.Header04}>Header</Header>
+      <Header type={HeaderType.Header05}>Header</Header>
+      <Header type={HeaderType.Header06}>Header</Header>
+
+      <Button
+        size={ButtonSize.Default}
+        style={ButtonStyles.Primary}
+        href="/login"
+      >
+        Button
+      </Button>
+      <Button
+        size={ButtonSize.Large}
+        style={ButtonStyles.Secendary}
+        onClick={handleFunction}
+      >
+        Button
+      </Button>
+
+      <Footer />
     </div>
   );
 }
