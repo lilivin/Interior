@@ -1,4 +1,9 @@
 .logo{
     display: flex;
+    align-items: center;
     gap: 10px;
+    img{
+        height: 34px;
+        width: 34px;
+    }
 }

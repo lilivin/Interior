@@ -2,6 +2,8 @@ import styles from "./app.module.scss";
 import Button, { ButtonSize, ButtonStyles } from "./components/button";
 import Footer from "./components/footer";
 import Header, { HeaderType } from "./components/header";
+import Navigation from "./components/navigation";
+import PageTitle from "./components/pageTitle";
 
 function App() {
   function handleFunction() {
@@ -33,6 +35,8 @@ function App() {
       </Button>
 
       <Footer />
+      <Navigation />
+      <PageTitle />
     </div>
   );
 }

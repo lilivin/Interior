@@ -1,0 +1,16 @@
+.container{
+    height: 350px;
+    width: 100%;
+    background-size: cover;
+    background-position: center center;
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.info{
+    background-color: var(--color-white);
+    padding: 20px 30px;
+    border-radius: 20px 20px 0 0;
+}
