@@ -1,0 +1,16 @@
+.container{
+    text-align: center;
+    border-right: 2px solid var(--primary-1);
+    padding: 0 45px;
+    width: 25%;
+    &:nth-last-of-type(1){
+        border-right: none;
+    }
+}
+
+.number{
+    color: var(--primary-1);
+    font-size: 85px;
+    line-height: 95px;
+    font-family: var(--font-2);
+}

@@ -4,6 +4,7 @@ import Footer from "./components/footer";
 import Header, { HeaderType } from "./components/header";
 import Navigation from "./components/navigation";
 import PageTitle from "./components/pageTitle";
+import Homepage from "./pages/homepage";
 
 function App() {
   function handleFunction() {
@@ -12,7 +13,7 @@ function App() {
 
   return (
     <div className={styles.app}>
-      <Header type={HeaderType.Header01}>Header</Header>
+      {/* <Header type={HeaderType.Header01}>Header</Header>
       <Header type={HeaderType.Header02}>Header</Header>
       <Header type={HeaderType.Header03}>Header</Header>
       <Header type={HeaderType.Header04}>Header</Header>
@@ -33,10 +34,10 @@ function App() {
       >
         Button
       </Button>
-
-      <Footer />
-      <Navigation />
       <PageTitle />
+      <Footer />
+      <Navigation /> */}
+      <Homepage />
     </div>
   );
 }

@@ -1,0 +1,11 @@
+.container{
+    background: var(--primary-3);
+    margin: 100px 0;
+    padding: 40px 0 50px;
+    .content{
+        width: 1200px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+    }
+}

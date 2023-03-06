@@ -6,6 +6,7 @@ function PageTitle() {
     <div className={styles.container} style={{ backgroundImage: `url(${require("../../assets/about-us-page-title.png")})` }}>
       <div className={styles.info}>
         <Header type={HeaderType.Header01}>About Us</Header>
+        <p>Home/Styleguide</p>
       </div>
     </div>
   );

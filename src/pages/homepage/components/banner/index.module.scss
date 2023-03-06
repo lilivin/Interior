@@ -1,0 +1,27 @@
+.banner{
+    display: flex;
+    align-items: center;
+    height: 800px;
+    background-size: cover;
+    background-position: bottom;
+    border-bottom-left-radius: 300px;
+}
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.content{
+    width: 600px;
+}
+
+.title{
+    font-size: 85px;
+    line-height: 90px;
+    font-family: var(--font-2);
+}
+
+.subtext{
+    margin: 20px 0;
+}
