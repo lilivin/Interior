@@ -1,22 +1,20 @@
-import Articles from "../../components/articles";
-import Clients from "../../components/clients";
 import Contact from "../../components/contact";
-import Counter from "../../components/counter";
 import Footer from "../../components/footer";
 import Navigation from "../../components/navigation";
+import PageTitle from "../../components/pageTitle";
 import Works from "../../components/works";
 import SignleWork from "../../components/works/component/singleWork";
-import AboutUs from "./components/aboutUs";
-import Banner from "./components/banner";
-import Projects from "./components/projects";
-import Testimonials from "./components/testimonials";
 import styles from "./index.module.scss";
 
-function Homepage() {
+function Services() {
   return (
     <div className={styles.container}>
       <Navigation />
-      <Banner />
+      <PageTitle
+        title="Services"
+        path="Home / Services"
+        image="services-page-title"
+      />
       <Works>
         <SignleWork title="Project Plan" href="#">
           There are many variations of the passages of lorem Ipsum from
@@ -26,21 +24,27 @@ function Homepage() {
           There are many variations of the passages of lorem Ipsum from
           available, majority.
         </SignleWork>
-        <SignleWork title="Realization" href="#">
+        <SignleWork title="Retail Design" href="#">
+          There are many variations of the passages of lorem Ipsum from
+          available, majority.
+        </SignleWork>
+        <SignleWork title="2d/3d Art Work" href="#">
+          There are many variations of the passages of lorem Ipsum from
+          available, majority.
+        </SignleWork>
+        <SignleWork title="Interior Work " href="#">
+          There are many variations of the passages of lorem Ipsum from
+          available, majority.
+        </SignleWork>
+        <SignleWork title="Decoration Work" href="#">
           There are many variations of the passages of lorem Ipsum from
           available, majority.
         </SignleWork>
       </Works>
-      <AboutUs />
-      <Testimonials />
-      <Clients />
-      <Projects />
-      <Counter />
-      <Articles />
       <Contact />
       <Footer />
     </div>
   );
 }
 
-export default Homepage;
+export default Services;

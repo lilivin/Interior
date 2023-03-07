@@ -1,0 +1,75 @@
+.container {
+  margin: 15px 0;
+  width: 25%;
+  padding: 0 15px;
+  height: 380px;
+  position: relative;
+  perspective: 1000px;
+}
+.card {
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: all 0.5s linear;
+  cursor: pointer;
+  &.flipped {
+    transform: rotateY(180deg);
+    .front {
+      box-shadow: 0 0 0 #aaa;
+    }
+    .back {
+      box-shadow: 5px 5px 5px #aaa;
+    }
+  }
+}
+.front {
+  position: absolute;
+  backface-visibility: hidden;
+  z-index: 1;
+  box-shadow: 5px 5px 5px #aaa;
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+  }
+}
+.back {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  overflow: hidden;
+  z-index: -1;
+  transform: rotateY(180deg);
+  background: #fff;
+  font-size: var(--font-size-3);
+  text-align: center;
+  .contact {
+    a {
+      color: var(--primary-2);
+      text-decoration: none;
+      display: block;
+    }
+  }
+  .socialMedia {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    .link {
+      img {
+        width: 25px;
+        height: 25px;
+      }
+    }
+  }
+}
+.front,
+.back {
+  transition: all 0.5s linear;
+  height: 100%;
+  width: 100%;
+  border-radius: 20px;
+}

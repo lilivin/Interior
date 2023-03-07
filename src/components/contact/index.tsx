@@ -12,7 +12,7 @@ function Contact() {
           style={ButtonStyles.Secendary}
           href="#"
         >
-          Get Started
+          Contact With Us
         </Button>
     </div>
   );

@@ -13,12 +13,14 @@ export const enum ButtonSize {
 function Button({
   children,
   href,
+  type,
   onClick,
   style = ButtonStyles["Primary"],
   size = ButtonSize["Default"],
 }: {
   children: string;
   href?: string;
+  type?: string;
   onClick?: () => void;
   style?: ButtonStyles;
   size?: ButtonSize;
@@ -31,6 +33,14 @@ function Button({
       >
         {children}
       </a>
+    );
+  } else if(type) {
+    return (
+      <input
+        type="submit"
+        value={children}
+        className={`${styles.button} ${styles[style]} ${styles[size]}`}
+      />
     );
   } else {
     return (

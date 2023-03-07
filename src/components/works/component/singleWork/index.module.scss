@@ -1,0 +1,27 @@
+.container{
+    text-align: center;
+    width: calc(33% - 15px);
+    padding: 50px 30px;
+    border-radius: 20px;
+    transition: 300ms;
+    &:hover{
+        background: var(--primary-3);
+    }
+}
+
+.button{
+    position: relative;
+    display: inline-block;
+    margin-top: 40px;
+    padding-right: 30px;
+    font-size: var(--font-size-3);
+    text-decoration: none;
+    color: var(--primary-2);
+    font-weight: 700;
+    &:after{
+        content: url("../../../../assets/primary-color-arrow.svg");
+        position: absolute;
+        right: 0px;
+        top: 3px;
+    }
+}
