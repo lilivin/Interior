@@ -4,6 +4,7 @@ import Navigation from "../../components/navigation";
 import PageTitle from "../../components/pageTitle";
 import Works from "../../components/works";
 import SignleWork from "../../components/works/component/singleWork";
+import HowWeWork from "./components/howWeWork";
 import styles from "./index.module.scss";
 
 function Services() {
@@ -13,7 +14,7 @@ function Services() {
       <PageTitle
         title="Services"
         path="Home / Services"
-        image="services-page-title"
+        image="project-page-title"
       />
       <Works>
         <SignleWork title="Project Plan" href="#">
@@ -41,6 +42,7 @@ function Services() {
           available, majority.
         </SignleWork>
       </Works>
+      <HowWeWork />
       <Contact />
       <Footer />
     </div>

@@ -1,0 +1,21 @@
+.container::before {
+  content: "."counter(li);
+  color: var(--primary-1);
+  display: inline-block;
+  width: 1em;
+  font-size: 20px;
+  margin-left: -1.5em;
+  margin-right: 0.5em;
+  text-align: right;
+  direction: rtl;
+  font-family: var(--font-2);
+}
+
+.container {
+  counter-increment: li;
+  padding: 8px 0;
+  a{
+    color: var(--primary-2);
+    text-decoration: none;
+  }
+}

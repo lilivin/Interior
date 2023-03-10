@@ -1,4 +1,3 @@
-import Articles from "../../components/articles";
 import Clients from "../../components/clients";
 import Contact from "../../components/contact";
 import Counter from "../../components/counter";
@@ -7,6 +6,7 @@ import Navigation from "../../components/navigation";
 import Works from "../../components/works";
 import SignleWork from "../../components/works/component/singleWork";
 import AboutUs from "./components/aboutUs";
+import ArticlesHomepage from "./components/articlesHomepage";
 import Banner from "./components/banner";
 import Projects from "./components/projects";
 import Testimonials from "./components/testimonials";
@@ -36,7 +36,7 @@ function Homepage() {
       <Clients />
       <Projects />
       <Counter />
-      <Articles />
+      <ArticlesHomepage />
       <Contact />
       <Footer />
     </div>

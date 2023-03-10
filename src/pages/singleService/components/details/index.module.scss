@@ -1,0 +1,21 @@
+.container{
+    width: 1200px;
+    margin: 100px auto;
+    display: flex;
+    gap: 40px;
+    h3{
+        width: 40%;
+    }
+    .content{
+        width: 60%;
+        padding-top: 10px;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        p{
+            &:nth-of-type(1){
+                color: var(--primary-1)
+            }
+        }
+    }
+}

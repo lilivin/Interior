@@ -1,0 +1,30 @@
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+.content {
+  display: flex;
+  margin: 100px auto;
+  gap: 50px;
+  align-items: center;
+}
+.text {
+  width: 55%;
+}
+.details {
+  width: 45%;
+  list-style: none;
+  background-color: var(--primary-3);
+  padding: 60px;
+  border-radius: 30px;
+  li {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0;
+    .property {
+      font-weight: 700;
+    }
+    .value {
+    }
+  }
+}

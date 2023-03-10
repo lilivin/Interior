@@ -1,6 +1,7 @@
 import Header, { HeaderType } from "../../../../../../components/header";
 import styles from "./index.module.scss";
 import RightArrow from "../../../../../../assets/href-right-arrow.svg";
+import IconArrowButton from "../../../../../../components/iconArrowButton";
 
 function Project(props: {
   title: string;
@@ -17,9 +18,7 @@ function Project(props: {
           <Header type={HeaderType.Header03}>{title}</Header>
           <p>{type}</p>
         </div>
-        <a href={href} className={styles.button}>
-          <img src={RightArrow} alt="Right arrow" />
-        </a>
+        <IconArrowButton href="#" />
       </div>
     </div>
   );
