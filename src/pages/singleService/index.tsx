@@ -3,7 +3,6 @@ import ContentWithImage from "../../components/contentWithImage";
 import Counter from "../../components/counter";
 import Footer from "../../components/footer";
 import ImageDivider from "../../components/imageDivider";
-import Navigation from "../../components/navigation";
 import PageTitle from "../../components/pageTitle";
 import Details from "./components/details";
 import Points from "./components/points";
@@ -12,7 +11,6 @@ import styles from "./index.module.scss";
 function SingleService() {
   return (
     <div className={styles.container}>
-      <Navigation />
       <PageTitle
         title="Service Single"
         path="Home / Services Single"

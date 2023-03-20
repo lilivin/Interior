@@ -1,27 +1,47 @@
-.container{
-    text-align: center;
-    width: calc(33% - 15px);
-    padding: 50px 30px;
-    border-radius: 20px;
-    transition: 300ms;
-    &:hover{
-        background: var(--primary-3);
-    }
+@import "../../../../variables.scss";
+
+.container {
+  text-align: center;
+  width: 100%;
+  padding: 50px 30px;
+  border-radius: 20px;
+  margin: 0 auto;
+  transition: 300ms;
+  &:hover {
+    background: var(--primary-3);
+  }
 }
 
-.button{
-    position: relative;
-    display: inline-block;
-    margin-top: 40px;
-    padding-right: 30px;
-    font-size: var(--font-size-3);
-    text-decoration: none;
-    color: var(--primary-2);
-    font-weight: 700;
-    &:after{
-        content: url("../../../../assets/primary-color-arrow.svg");
-        position: absolute;
-        right: 0px;
-        top: 3px;
-    }
+.button {
+  position: relative;
+  display: inline-block;
+  margin-top: 40px;
+  padding-right: 30px;
+  font-size: var(--font-size-3);
+  text-decoration: none;
+  color: var(--primary-2);
+  font-weight: 700;
+  &:after {
+    content: url("../../../../assets/primary-color-arrow.svg");
+    position: absolute;
+    right: 0px;
+    top: 3px;
+  }
+}
+
+@media (min-width: $monitor-breakpoint) {
+  .container {
+    width: calc(33% - 15px);
+  }
+}
+
+@media (min-width: $tablet-breakpoint) {
+  .container {
+    width: calc(50% - 15px);
+  }
+}
+@media (min-width: $monitor-breakpoint) {
+  .container {
+    width: calc(33% - 15px);
+  }
 }

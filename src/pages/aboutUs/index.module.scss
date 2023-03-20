@@ -1,0 +1,20 @@
+@import "../../variables.scss";
+
+.contact {
+  width: calc(var(--max-width) - 40px);
+  margin: 100px auto;
+  text-align: center;
+  form {
+    width: 100%;
+    margin: 80px auto 0;
+  }
+}
+
+@media (min-width: $monitor-breakpoint) {
+  .contact {
+    width: (--max-width);
+    form {
+      width: 800px;
+    }
+  }
+}

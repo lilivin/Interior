@@ -1,11 +1,22 @@
-.container{
-    background: var(--primary-3);
-    margin: 100px 0;
-    padding: 40px 0 50px;
-    .content{
-        width: 1200px;
-        margin: 0 auto;
-        display: flex;
-        justify-content: center;
+@import "../../variables.scss";
+
+.container {
+  background: var(--primary-3);
+  margin: 100px 0;
+  padding: 40px 0 50px;
+  .content {
+    width: calc(var(--max-width) - 40px);
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+@media (min-width: $monitor-breakpoint) {
+  .container {
+    .content {
+      width: var(--max-width);
     }
+  }
 }

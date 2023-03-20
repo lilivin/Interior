@@ -1,9 +1,17 @@
+@import "../../../../variables.scss";
+
 .container {
-  width: 100%;
+  width: calc(var(--max-width) - 40px);
   height: 500px;
   margin: 100px auto;
   position: relative;
   border-radius: 30px;
   overflow: hidden;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+@media (min-width: $monitor-breakpoint) {
+  .container {
+    width: var(--max-width);
+  }
 }

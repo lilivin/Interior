@@ -1,5 +1,5 @@
 .container{
-    width: 1200px;
+    width: var(--max-width);
     margin: 100px auto;
     display: flex;
     flex-wrap: wrap;

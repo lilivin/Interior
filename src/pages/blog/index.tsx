@@ -1,74 +1,53 @@
+import { useEffect } from "react";
+import { useParams } from "react-router-dom";
 import Articles from "../../components/articles";
 import Article from "../../components/articles/components/article";
 import Footer from "../../components/footer";
 import Header, { HeaderType } from "../../components/header";
-import Navigation from "../../components/navigation";
 import PageTitle from "../../components/pageTitle";
+import Pagination, { getPaginatedData } from "../../components/pagination";
+import { ArticleType, getArticles } from "../../helpers/articles";
 import LastArticle from "./components/lastArticle";
 import styles from "./index.module.scss";
 
 function Blog() {
+  let articles = getArticles();
+  const articlesPerPage = 6;
+  const pagesNumber = Math.round(articles.length / articlesPerPage);
+  const { page: currentPage } = useParams();
+  const current = currentPage ? Number(currentPage) : 0;
+
   return (
     <div className={styles.container}>
-      <Navigation />
       <PageTitle
         title="Articles & News"
         path="Home / Blog"
         image="pricing-page-title"
       />
-      <LastArticle />
+      <LastArticle
+        id={articles[0].id}
+        image={articles[0].photo}
+        shortDescription={articles[0].shortDescription}
+        title={articles[0].title}
+        date={articles[0].date}
+      />
       <div className={styles.articlesContainer}>
         <Header type={HeaderType.Header01}>Articles & News</Header>
         <Articles>
-          <Article
-            category="Kitchan Design"
-            link="#"
-            date="26 December,2022"
-            photo="article-photo-1"
-          >
-            Let’s Get Solution For Building Construction Work
-          </Article>
-          <Article
-            category="Living Design"
-            link="#"
-            date="22 December,2022"
-            photo="article-photo-2"
-          >
-            Low Cost Latest Invented Interior Designing Ideas.
-          </Article>
-          <Article
-            category="Interior Design"
-            link="#"
-            date="25 December,2022"
-            photo="article-photo-3"
-          >
-            Best For Any Office & Business Interior Solution
-          </Article>
-          <Article
-            category="Kitchan Design"
-            link="#"
-            date="26 December,2022"
-            photo="article-photo-1"
-          >
-            Let’s Get Solution For Building Construction Work
-          </Article>
-          <Article
-            category="Living Design"
-            link="#"
-            date="22 December,2022"
-            photo="article-photo-2"
-          >
-            Low Cost Latest Invented Interior Designing Ideas.
-          </Article>
-          <Article
-            category="Interior Design"
-            link="#"
-            date="25 December,2022"
-            photo="article-photo-3"
-          >
-            Best For Any Office & Business Interior Solution
-          </Article>
+          {getPaginatedData(current, articlesPerPage, articles).map(
+            (article: ArticleType) => (
+              <Article
+                id={article.id}
+                category={article.category}
+                date={article.date}
+                photo={article.photo}
+              >
+                {article.title}
+              </Article>
+            )
+          )}
         </Articles>
+        <Pagination current={current} pagesNumber={pagesNumber} page="blog" />
       </div>
       <Footer />
     </div>

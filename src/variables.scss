@@ -1,13 +1,25 @@
-:root{
-    --primary-1: #CDA274;
-    --primary-2: #292f36;
-    --primary-3: #F4F0EC;
-    --color-white: #FFFFFF;
+:root {
+  --primary-1: #cda274;
+  --primary-2: #292f36;
+  --primary-3: #f4f0ec;
+  --color-white: #ffffff;
 
-    --font-1: 'Jost', sans-serif;
-    --font-2: 'DM Serif Display', serif;
+  --font-1: "Jost", sans-serif;
+  --font-2: "DM Serif Display", serif;
 
-    --font-size-1: 22px;
-    --font-size-2: 20px;
-    --font-size-3: 18px;
+  --font-size-1: 22px;
+  --font-size-2: 20px;
+  --font-size-3: 18px;
+
+  --max-width: 100%;
+}
+
+$mobile-breakpoint: 600px;
+$tablet-breakpoint: 900px;
+$monitor-breakpoint: 1200px;
+
+@media (min-width: $monitor-breakpoint) {
+  :root {
+    --max-width: 1200px;
+  }
 }

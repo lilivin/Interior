@@ -1,16 +1,34 @@
-.container{
-    text-align: center;
-    border-right: 2px solid var(--primary-1);
-    padding: 0 45px;
-    width: 25%;
-    &:nth-last-of-type(1){
-        border-right: none;
-    }
+@import "../../../../variables.scss";
+
+.container {
+  text-align: center;
+  padding: 0 45px;
+  width: 100%;
 }
 
-.number{
-    color: var(--primary-1);
-    font-size: 85px;
-    line-height: 95px;
-    font-family: var(--font-2);
+.number {
+  color: var(--primary-1);
+  font-size: 85px;
+  line-height: 95px;
+  font-family: var(--font-2);
+}
+
+@media (min-width: $mobile-breakpoint) {
+  .container {
+    width: 50%;
+    border-right: 2px solid var(--primary-1);
+    &:nth-of-type(2),
+    &:nth-of-type(4) {
+      border-right: none;
+    }
+  }
+}
+
+@media (min-width: $monitor-breakpoint) {
+  .container {
+    width: 25%;
+    &:nth-of-type(2) {
+      border-right: 2px solid var(--primary-1);
+    }
+  }
 }

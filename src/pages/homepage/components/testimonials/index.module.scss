@@ -1,16 +1,24 @@
-.container{
-    width: 1200px;
-    margin: 100px auto;
-    text-align: center;
-    background: var(--primary-3);
-    padding: 70px 20px;
-    border-radius: 20px;
+@import "../../../../variables.scss";
+
+.container {
+  width: calc(var(--max-width) - 40px);
+  margin: 100px auto;
+  text-align: center;
+  background: var(--primary-3);
+  padding: 70px 20px;
+  border-radius: 20px;
 }
 
-.testimonials{
-    margin-top: 40px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    gap: 10px;
+.testimonials {
+  margin-top: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+@media (min-width: $monitor-breakpoint) {
+  .container {
+    width: var(--max-width);
+  }
 }

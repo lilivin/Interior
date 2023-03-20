@@ -2,7 +2,6 @@ import Clients from "../../components/clients";
 import Contact from "../../components/contact";
 import Counter from "../../components/counter";
 import Footer from "../../components/footer";
-import Navigation from "../../components/navigation";
 import Works from "../../components/works";
 import SignleWork from "../../components/works/component/singleWork";
 import AboutUs from "./components/aboutUs";
@@ -14,8 +13,7 @@ import styles from "./index.module.scss";
 
 function Homepage() {
   return (
-    <div className={styles.container}>
-      <Navigation />
+    <div className={`${styles.container}`}>
       <Banner />
       <Works>
         <SignleWork title="Project Plan" href="#">

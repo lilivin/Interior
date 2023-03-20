@@ -5,9 +5,6 @@ import styles from "./index.module.scss";
 function ContactForm() {
   return (
     <div className={styles.container}>
-      <Header type={HeaderType.Header01}>
-        Creative project? Let's have a productive talk.
-      </Header>
       <form className={styles.form}>
         <input className={styles.input} type="text" placeholder="Name" />
         <input className={styles.input} type="email" placeholder="Email" />

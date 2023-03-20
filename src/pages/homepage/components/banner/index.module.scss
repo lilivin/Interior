@@ -1,27 +1,45 @@
-.banner{
-    display: flex;
-    align-items: center;
-    height: 800px;
-    background-size: cover;
-    background-position: bottom;
+@import "../../../../variables.scss";
+
+.banner {
+  display: flex;
+  align-items: center;
+  height: 800px;
+  background-size: cover;
+  background-position: bottom;
+  border-bottom-right-radius: 300px;
+  border-bottom-left-radius: 0px;
+}
+
+.container {
+  width: calc(var(--max-width) - 40px);
+  margin: 0 auto;
+}
+
+.content {
+  width: calc(100% - 40px);
+}
+
+.title {
+  font-size: 85px;
+  line-height: 90px;
+  font-family: var(--font-2);
+}
+
+.subtext {
+  margin: 20px 0;
+}
+
+@media (min-width: $monitor-breakpoint) {
+  .banner {
+    border-bottom-right-radius: 0px;
     border-bottom-left-radius: 300px;
-}
+  }
 
-.container{
-    width: 1200px;
-    margin: 0 auto;
-}
+  .container {
+    width: var(--max-width);
+  }  
 
-.content{
+  .content {
     width: 600px;
-}
-
-.title{
-    font-size: 85px;
-    line-height: 90px;
-    font-family: var(--font-2);
-}
-
-.subtext{
-    margin: 20px 0;
+  }
 }

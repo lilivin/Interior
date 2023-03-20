@@ -1,6 +1,23 @@
-.container{
-    width: 1200px;
-    margin: 100px auto;
-    display: flex;
-    justify-content: space-around;
+@import "../../../../variables.scss";
+
+.container {
+  width: calc(var(--max-width) - 40px);
+  margin: 100px auto;
+  display: flex;
+  gap: 40px;
+  flex-direction: column;
+  justify-content: space-around;
 }
+
+@media (min-width: $mobile-breakpoint) {
+  .container {
+    flex-direction: row;
+  }
+}
+
+@media (min-width: $monitor-breakpoint) {
+    .container {
+      width: var(--max-width);
+      flex-direction: row;
+    }
+  }

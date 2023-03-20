@@ -1,0 +1,76 @@
+{
+  "articles": [
+    {
+      "id": "lets-get-solution-for-building-construction-work",
+      "title": "Let’s Get Solution For Building Construction Work.",
+      "shortDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod mattis dolor, at pulvinar ex blandit ut. Nam sagittis enim eu risus porta ultrices. Aliquam porttitor bibendum nisl, ut auctor nunc volutpat sit amet. Vivamus in malesuada mi. Nullam sed libero eu felis varius ultricies.",
+      "category": "kitchen",
+      "photo": "article-photo-1",
+      "date": "2023-03-12T12:00:00+00:00"
+    },
+    {
+      "id": "low-cost-latest-invented-interior-designing-ideas",
+      "title": "Low Cost Latest Invented Interior Designing Ideas.",
+      "shortDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod mattis dolor, at pulvinar ex blandit ut. Nam sagittis enim eu risus porta ultrices. Aliquam porttitor bibendum nisl, ut auctor nunc volutpat sit amet. Vivamus in malesuada mi. Nullam sed libero eu felis varius ultricies.",
+      "category": "kitchen",
+      "photo": "article-photo-2",
+      "date": "2023-03-12T12:00:00+00:00"
+    },
+    {
+      "id": "best-for-any-office-business-interior-solution",
+      "title": "Best For Any Office & Business Interior Solution",
+      "shortDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod mattis dolor, at pulvinar ex blandit ut. Nam sagittis enim eu risus porta ultrices. Aliquam porttitor bibendum nisl, ut auctor nunc volutpat sit amet. Vivamus in malesuada mi. Nullam sed libero eu felis varius ultricies.",
+      "category": "kitchen",
+      "photo": "article-photo-3",
+      "date": "2023-03-12T12:00:00+00:00"
+    },
+    {
+      "id": "lets-get-solution-for-building-construction-work",
+      "title": "Let’s Get Solution For Building Construction Work",
+      "shortDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod mattis dolor, at pulvinar ex blandit ut. Nam sagittis enim eu risus porta ultrices. Aliquam porttitor bibendum nisl, ut auctor nunc volutpat sit amet. Vivamus in malesuada mi. Nullam sed libero eu felis varius ultricies.",
+      "category": "kitchen",
+      "photo": "article-photo-1",
+      "date": "2023-03-12T12:00:00+00:00"
+    },
+    {
+      "id": "low-cost-latest-invented-interior-designing-ideas",
+      "title": "Low Cost Latest Invented Interior Designing Ideas.",
+      "shortDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod mattis dolor, at pulvinar ex blandit ut. Nam sagittis enim eu risus porta ultrices. Aliquam porttitor bibendum nisl, ut auctor nunc volutpat sit amet. Vivamus in malesuada mi. Nullam sed libero eu felis varius ultricies.",
+      "category": "kitchen",
+      "photo": "article-photo-2",
+      "date": "2023-03-12T12:00:00+00:00"
+    },
+    {
+      "id": "best-for-any-office-business-interior-solution",
+      "title": "Best For Any Office & Business Interior Solution",
+      "shortDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod mattis dolor, at pulvinar ex blandit ut. Nam sagittis enim eu risus porta ultrices. Aliquam porttitor bibendum nisl, ut auctor nunc volutpat sit amet. Vivamus in malesuada mi. Nullam sed libero eu felis varius ultricies.",
+      "category": "kitchen",
+      "photo": "article-photo-3",
+      "date": "2023-03-12T12:00:00+00:00"
+    },
+    {
+      "id": "low-cost-latest-invented-interior-designing-ideas",
+      "title": "Low Cost Latest Invented Interior Designing Ideas.",
+      "shortDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod mattis dolor, at pulvinar ex blandit ut. Nam sagittis enim eu risus porta ultrices. Aliquam porttitor bibendum nisl, ut auctor nunc volutpat sit amet. Vivamus in malesuada mi. Nullam sed libero eu felis varius ultricies.",
+      "category": "kitchen",
+      "photo": "article-photo-2",
+      "date": "2023-03-12T12:00:00+00:00"
+    },
+    {
+      "id": "best-for-any-office-business-interior-solution",
+      "title": "Best For Any Office & Business Interior Solution",
+      "shortDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod mattis dolor, at pulvinar ex blandit ut. Nam sagittis enim eu risus porta ultrices. Aliquam porttitor bibendum nisl, ut auctor nunc volutpat sit amet. Vivamus in malesuada mi. Nullam sed libero eu felis varius ultricies.",
+      "category": "kitchen",
+      "photo": "article-photo-3",
+      "date": "2023-03-12T12:00:00+00:00"
+    },
+    {
+      "id": "lets-get-solution-for-building-construction-work",
+      "title": "Let’s Get Solution For Building Construction Work",
+      "shortDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod mattis dolor, at pulvinar ex blandit ut. Nam sagittis enim eu risus porta ultrices. Aliquam porttitor bibendum nisl, ut auctor nunc volutpat sit amet. Vivamus in malesuada mi. Nullam sed libero eu felis varius ultricies.",
+      "category": "kitchen",
+      "photo": "article-photo-1",
+      "date": "2023-03-12T12:00:00+00:00"
+    }
+  ]
+}

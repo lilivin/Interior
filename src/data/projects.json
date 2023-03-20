@@ -1,0 +1,556 @@
+{
+  "projects": [
+    {
+      "id": "minimal-bedroom",
+      "title": "Minimal Bedroom",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vel ante laoreet, pretium turpis ac, rhoncus mi.",
+      "category": "bedroom",
+      "photos": [
+        {
+          "image": "project-photo-3",
+          "alt": "Project Photo 3 Description"
+        },
+        {
+          "image": "project-photo-2",
+          "alt": "Project Photo 2 Description"
+        },
+        {
+          "image": "project-photo-1",
+          "alt": "Project Photo 1 Description"
+        }
+      ],
+      "date": "2023-03-12T12:00:00+00:00",
+      "client": "Your Client Name",
+      "cost": "$170 000"
+    },
+    {
+      "id": "minimal-bedroom",
+      "title": "Minimal Bedroom",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vel ante laoreet, pretium turpis ac, rhoncus mi.",
+      "category": "bedroom",
+      "photos": [
+        {
+          "image": "project-photo-3",
+          "alt": "Project Photo 3 Description"
+        },
+        {
+          "image": "project-photo-2",
+          "alt": "Project Photo 2 Description"
+        },
+        {
+          "image": "project-photo-1",
+          "alt": "Project Photo 1 Description"
+        }
+      ],
+      "date": "2023-03-12T12:00:00+00:00",
+      "client": "Your Client Name",
+      "cost": "$170 000"
+    },
+    {
+      "id": "minimal-bedroom",
+      "title": "Minimal Bedroom",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vel ante laoreet, pretium turpis ac, rhoncus mi.",
+      "category": "bedroom",
+      "photos": [
+        {
+          "image": "project-photo-3",
+          "alt": "Project Photo 3 Description"
+        },
+        {
+          "image": "project-photo-2",
+          "alt": "Project Photo 2 Description"
+        },
+        {
+          "image": "project-photo-1",
+          "alt": "Project Photo 1 Description"
+        }
+      ],
+      "date": "2023-03-12T12:00:00+00:00",
+      "client": "Your Client Name",
+      "cost": "$170 000"
+    },
+    {
+      "id": "minimal-bedroom",
+      "title": "Minimal Bedroom",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vel ante laoreet, pretium turpis ac, rhoncus mi.",
+      "category": "bedroom",
+      "photos": [
+        {
+          "image": "project-photo-3",
+          "alt": "Project Photo 3 Description"
+        },
+        {
+          "image": "project-photo-2",
+          "alt": "Project Photo 2 Description"
+        },
+        {
+          "image": "project-photo-1",
+          "alt": "Project Photo 1 Description"
+        }
+      ],
+      "date": "2023-03-12T12:00:00+00:00",
+      "client": "Your Client Name",
+      "cost": "$170 000"
+    },
+    {
+      "id": "minimal-bedroom",
+      "title": "Minimal Bedroom",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vel ante laoreet, pretium turpis ac, rhoncus mi.",
+      "category": "bedroom",
+      "photos": [
+        {
+          "image": "project-photo-3",
+          "alt": "Project Photo 3 Description"
+        },
+        {
+          "image": "project-photo-2",
+          "alt": "Project Photo 2 Description"
+        },
+        {
+          "image": "project-photo-1",
+          "alt": "Project Photo 1 Description"
+        }
+      ],
+      "date": "2023-03-12T12:00:00+00:00",
+      "client": "Your Client Name",
+      "cost": "$170 000"
+    },
+    {
+      "id": "minimal-bedroom",
+      "title": "Minimal Bedroom",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vel ante laoreet, pretium turpis ac, rhoncus mi.",
+      "category": "bedroom",
+      "photos": [
+        {
+          "image": "project-photo-3",
+          "alt": "Project Photo 3 Description"
+        },
+        {
+          "image": "project-photo-2",
+          "alt": "Project Photo 2 Description"
+        },
+        {
+          "image": "project-photo-1",
+          "alt": "Project Photo 1 Description"
+        }
+      ],
+      "date": "2023-03-12T12:00:00+00:00",
+      "client": "Your Client Name",
+      "cost": "$170 000"
+    },
+    {
+      "id": "minimal-kitchen",
+      "title": "Minimal Kitchen",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vel ante laoreet, pretium turpis ac, rhoncus mi.",
+      "category": "kitchen",
+      "photos": [
+        {
+          "image": "project-photo-3",
+          "alt": "Project Photo 3 Description"
+        },
+        {
+          "image": "project-photo-2",
+          "alt": "Project Photo 2 Description"
+        },
+        {
+          "image": "project-photo-1",
+          "alt": "Project Photo 1 Description"
+        }
+      ],
+      "date": "2023-03-12T12:00:00+00:00",
+      "client": "Your Client Name",
+      "cost": "$170 000"
+    },
+    {
+      "id": "minimal-kitchen",
+      "title": "Minimal Kitchen",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vel ante laoreet, pretium turpis ac, rhoncus mi.",
+      "category": "kitchen",
+      "photos": [
+        {
+          "image": "project-photo-3",
+          "alt": "Project Photo 3 Description"
+        },
+        {
+          "image": "project-photo-2",
+          "alt": "Project Photo 2 Description"
+        },
+        {
+          "image": "project-photo-1",
+          "alt": "Project Photo 1 Description"
+        }
+      ],
+      "date": "2023-03-12T12:00:00+00:00",
+      "client": "Your Client Name",
+      "cost": "$170 000"
+    },
+    {
+      "id": "minimal-kitchen",
+      "title": "Minimal Kitchen",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vel ante laoreet, pretium turpis ac, rhoncus mi.",
+      "category": "kitchen",
+      "photos": [
+        {
+          "image": "project-photo-3",
+          "alt": "Project Photo 3 Description"
+        },
+        {
+          "image": "project-photo-2",
+          "alt": "Project Photo 2 Description"
+        },
+        {
+          "image": "project-photo-1",
+          "alt": "Project Photo 1 Description"
+        }
+      ],
+      "date": "2023-03-12T12:00:00+00:00",
+      "client": "Your Client Name",
+      "cost": "$170 000"
+    },
+    {
+      "id": "minimal-kitchen",
+      "title": "Minimal Kitchen",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vel ante laoreet, pretium turpis ac, rhoncus mi.",
+      "category": "kitchen",
+      "photos": [
+        {
+          "image": "project-photo-3",
+          "alt": "Project Photo 3 Description"
+        },
+        {
+          "image": "project-photo-2",
+          "alt": "Project Photo 2 Description"
+        },
+        {
+          "image": "project-photo-1",
+          "alt": "Project Photo 1 Description"
+        }
+      ],
+      "date": "2023-03-12T12:00:00+00:00",
+      "client": "Your Client Name",
+      "cost": "$170 000"
+    },
+    {
+      "id": "minimal-kitchen",
+      "title": "Minimal Kitchen",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vel ante laoreet, pretium turpis ac, rhoncus mi.",
+      "category": "kitchen",
+      "photos": [
+        {
+          "image": "project-photo-3",
+          "alt": "Project Photo 3 Description"
+        },
+        {
+          "image": "project-photo-2",
+          "alt": "Project Photo 2 Description"
+        },
+        {
+          "image": "project-photo-1",
+          "alt": "Project Photo 1 Description"
+        }
+      ],
+      "date": "2023-03-12T12:00:00+00:00",
+      "client": "Your Client Name",
+      "cost": "$170 000"
+    },
+    {
+      "id": "minimal-kitchen",
+      "title": "Minimal Kitchen",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vel ante laoreet, pretium turpis ac, rhoncus mi.",
+      "category": "kitchen",
+      "photos": [
+        {
+          "image": "project-photo-3",
+          "alt": "Project Photo 3 Description"
+        },
+        {
+          "image": "project-photo-2",
+          "alt": "Project Photo 2 Description"
+        },
+        {
+          "image": "project-photo-1",
+          "alt": "Project Photo 1 Description"
+        }
+      ],
+      "date": "2023-03-12T12:00:00+00:00",
+      "client": "Your Client Name",
+      "cost": "$170 000"
+    },
+    {
+      "id": "minimal-bathroom",
+      "title": "Minimal Bathroom",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vel ante laoreet, pretium turpis ac, rhoncus mi.",
+      "category": "bathroom",
+      "photos": [
+        {
+          "image": "project-photo-3",
+          "alt": "Project Photo 3 Description"
+        },
+        {
+          "image": "project-photo-2",
+          "alt": "Project Photo 2 Description"
+        },
+        {
+          "image": "project-photo-1",
+          "alt": "Project Photo 1 Description"
+        }
+      ],
+      "date": "2023-03-12T12:00:00+00:00",
+      "client": "Your Client Name",
+      "cost": "$170 000"
+    },
+    {
+      "id": "minimal-bathroom",
+      "title": "Minimal Bathroom",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vel ante laoreet, pretium turpis ac, rhoncus mi.",
+      "category": "bathroom",
+      "photos": [
+        {
+          "image": "project-photo-3",
+          "alt": "Project Photo 3 Description"
+        },
+        {
+          "image": "project-photo-2",
+          "alt": "Project Photo 2 Description"
+        },
+        {
+          "image": "project-photo-1",
+          "alt": "Project Photo 1 Description"
+        }
+      ],
+      "date": "2023-03-12T12:00:00+00:00",
+      "client": "Your Client Name",
+      "cost": "$170 000"
+    },
+    {
+      "id": "minimal-bathroom",
+      "title": "Minimal Bathroom",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vel ante laoreet, pretium turpis ac, rhoncus mi.",
+      "category": "bathroom",
+      "photos": [
+        {
+          "image": "project-photo-3",
+          "alt": "Project Photo 3 Description"
+        },
+        {
+          "image": "project-photo-2",
+          "alt": "Project Photo 2 Description"
+        },
+        {
+          "image": "project-photo-1",
+          "alt": "Project Photo 1 Description"
+        }
+      ],
+      "date": "2023-03-12T12:00:00+00:00",
+      "client": "Your Client Name",
+      "cost": "$170 000"
+    },
+    {
+      "id": "minimal-bathroom",
+      "title": "Minimal Bathroom",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vel ante laoreet, pretium turpis ac, rhoncus mi.",
+      "category": "bathroom",
+      "photos": [
+        {
+          "image": "project-photo-3",
+          "alt": "Project Photo 3 Description"
+        },
+        {
+          "image": "project-photo-2",
+          "alt": "Project Photo 2 Description"
+        },
+        {
+          "image": "project-photo-1",
+          "alt": "Project Photo 1 Description"
+        }
+      ],
+      "date": "2023-03-12T12:00:00+00:00",
+      "client": "Your Client Name",
+      "cost": "$170 000"
+    },
+    {
+      "id": "minimal-bathroom",
+      "title": "Minimal Bathroom",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vel ante laoreet, pretium turpis ac, rhoncus mi.",
+      "category": "bathroom",
+      "photos": [
+        {
+          "image": "project-photo-3",
+          "alt": "Project Photo 3 Description"
+        },
+        {
+          "image": "project-photo-2",
+          "alt": "Project Photo 2 Description"
+        },
+        {
+          "image": "project-photo-1",
+          "alt": "Project Photo 1 Description"
+        }
+      ],
+      "date": "2023-03-12T12:00:00+00:00",
+      "client": "Your Client Name",
+      "cost": "$170 000"
+    },
+    {
+      "id": "minimal-bathroom",
+      "title": "Minimal Bathroom",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vel ante laoreet, pretium turpis ac, rhoncus mi.",
+      "category": "bathroom",
+      "photos": [
+        {
+          "image": "project-photo-3",
+          "alt": "Project Photo 3 Description"
+        },
+        {
+          "image": "project-photo-2",
+          "alt": "Project Photo 2 Description"
+        },
+        {
+          "image": "project-photo-1",
+          "alt": "Project Photo 1 Description"
+        }
+      ],
+      "date": "2023-03-12T12:00:00+00:00",
+      "client": "Your Client Name",
+      "cost": "$170 000"
+    },
+    {
+      "id": "minimal-living-room",
+      "title": "Minimal Living Room",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vel ante laoreet, pretium turpis ac, rhoncus mi.",
+      "category": "living room",
+      "photos": [
+        {
+          "image": "project-photo-3",
+          "alt": "Project Photo 3 Description"
+        },
+        {
+          "image": "project-photo-2",
+          "alt": "Project Photo 2 Description"
+        },
+        {
+          "image": "project-photo-1",
+          "alt": "Project Photo 1 Description"
+        }
+      ],
+      "date": "2023-03-12T12:00:00+00:00",
+      "client": "Your Client Name",
+      "cost": "$170 000"
+    },
+    {
+      "id": "minimal-living-room",
+      "title": "Minimal Living Room",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vel ante laoreet, pretium turpis ac, rhoncus mi.",
+      "category": "living room",
+      "photos": [
+        {
+          "image": "project-photo-3",
+          "alt": "Project Photo 3 Description"
+        },
+        {
+          "image": "project-photo-2",
+          "alt": "Project Photo 2 Description"
+        },
+        {
+          "image": "project-photo-1",
+          "alt": "Project Photo 1 Description"
+        }
+      ],
+      "date": "2023-03-12T12:00:00+00:00",
+      "client": "Your Client Name",
+      "cost": "$170 000"
+    },
+    {
+      "id": "minimal-living-room",
+      "title": "Minimal Living Room",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vel ante laoreet, pretium turpis ac, rhoncus mi.",
+      "category": "living room",
+      "photos": [
+        {
+          "image": "project-photo-3",
+          "alt": "Project Photo 3 Description"
+        },
+        {
+          "image": "project-photo-2",
+          "alt": "Project Photo 2 Description"
+        },
+        {
+          "image": "project-photo-1",
+          "alt": "Project Photo 1 Description"
+        }
+      ],
+      "date": "2023-03-12T12:00:00+00:00",
+      "client": "Your Client Name",
+      "cost": "$170 000"
+    },
+    {
+      "id": "minimal-living-room",
+      "title": "Minimal Living Room",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vel ante laoreet, pretium turpis ac, rhoncus mi.",
+      "category": "living room",
+      "photos": [
+        {
+          "image": "project-photo-3",
+          "alt": "Project Photo 3 Description"
+        },
+        {
+          "image": "project-photo-2",
+          "alt": "Project Photo 2 Description"
+        },
+        {
+          "image": "project-photo-1",
+          "alt": "Project Photo 1 Description"
+        }
+      ],
+      "date": "2023-03-12T12:00:00+00:00",
+      "client": "Your Client Name",
+      "cost": "$170 000"
+    },
+    {
+      "id": "minimal-living-room",
+      "title": "Minimal Living Room",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vel ante laoreet, pretium turpis ac, rhoncus mi.",
+      "category": "living room",
+      "photos": [
+        {
+          "image": "project-photo-3",
+          "alt": "Project Photo 3 Description"
+        },
+        {
+          "image": "project-photo-2",
+          "alt": "Project Photo 2 Description"
+        },
+        {
+          "image": "project-photo-1",
+          "alt": "Project Photo 1 Description"
+        }
+      ],
+      "date": "2023-03-12T12:00:00+00:00",
+      "client": "Your Client Name",
+      "cost": "$170 000"
+    },
+    {
+      "id": "minimal-living-room",
+      "title": "Minimal Living Room",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vel ante laoreet, pretium turpis ac, rhoncus mi.",
+      "category": "living room",
+      "photos": [
+        {
+          "image": "project-photo-3",
+          "alt": "Project Photo 3 Description"
+        },
+        {
+          "image": "project-photo-2",
+          "alt": "Project Photo 2 Description"
+        },
+        {
+          "image": "project-photo-1",
+          "alt": "Project Photo 1 Description"
+        }
+      ],
+      "date": "2023-03-12T12:00:00+00:00",
+      "client": "Your Client Name",
+      "cost": "$170 000"
+    }
+  ]
+}

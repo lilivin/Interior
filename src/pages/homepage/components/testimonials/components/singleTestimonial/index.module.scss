@@ -1,22 +1,31 @@
-.container{
-    text-align: left;
-    background: var(--color-white);
-    padding: 20px 15px 50px;
-    border-radius: 20px;
-    width: calc(33% - 10px);
-    box-sizing: border-box;
-    .user{
-        display: flex;
-        align-items: center;
-        gap: 20px;
-        margin-bottom: 20px;
-        img{
-            border-radius: 50%;
-        }
-        .userInfo{
-            p{
-                font-size: var(--font-size-3);
-            }
-        }
+@import "../../../../../../variables.scss";
+
+.container {
+  text-align: left;
+  background: var(--color-white);
+  padding: 20px 15px;
+  border-radius: 20px;
+  width: 100%;
+  box-sizing: border-box;
+  .user {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 20px;
+    img {
+      border-radius: 50%;
     }
+    .userInfo {
+      p {
+        font-size: var(--font-size-3);
+      }
+    }
+  }
+}
+
+@media (min-width: $tablet-breakpoint) {
+  .container {
+    width: calc(33% - 10px);
+    padding: 20px 15px 50px;
+  }
 }

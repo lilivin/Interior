@@ -1,18 +1,24 @@
+@import "../../variables.scss";
+
 .container {
-  width: 1200px;
   margin: 0 auto;
 }
 .content {
   display: flex;
+  flex-direction: column;
   margin: 100px auto;
+  width: calc(100% - 40px);
   gap: 50px;
   align-items: center;
 }
 .text {
-  width: 55%;
+  width: 100%;
+  p {
+    margin: 20px 0;
+  }
 }
 .details {
-  width: 45%;
+  width: 100%;
   list-style: none;
   background-color: var(--primary-3);
   padding: 60px;
@@ -25,6 +31,25 @@
       font-weight: 700;
     }
     .value {
+      text-transform: capitalize;
     }
+  }
+}
+
+@media (min-width: $tablet-breakpoint) {
+  .content {
+    flex-direction: row;
+  }
+  .text{
+    width: 55%;
+  }
+  .details{
+    width: 45%;
+  }
+}
+
+@media (min-width: $monitor-breakpoint) {
+  .content {
+    width: var(--max-width);
   }
 }

@@ -2,15 +2,13 @@ import styles from "./index.module.scss";
 import { useNavigate, useParams, useSearchParams } from "react-router-dom";
 import SingleProject from "./components/singleProject";
 import { useEffect, useState } from "react";
-import {
-  categories,
-  Project,
-  ProjectCategories,
-  ProjectCategory,
-} from "../../../../data/projects";
+import Pagination, {
+  getPaginatedData,
+} from "../../../../components/pagination";
+import { categories, getProjects, Project, ProjectCategories, ProjectCategory } from "../../../../helpers/projects";
 
-function ProjectsGrid(props: { initialProjects: Project[] }) {
-  const { initialProjects } = props;
+function ProjectsGrid() {
+  const initialProjects = getProjects();
   const navigate = useNavigate();
   const [searchParams, setSearchParams] = useSearchParams();
   const { page: currentPage } = useParams();
@@ -24,14 +22,6 @@ function ProjectsGrid(props: { initialProjects: Project[] }) {
   const pagesNumber = Math.round(projects.length / projectsPerPage);
   const current = currentPage ? Number(currentPage) : 0;
 
-  const getPaginatedData = () => {
-    const startIndex = current * projectsPerPage - projectsPerPage;
-    const endIndex = startIndex + projectsPerPage;
-    return projects.slice(startIndex, endIndex);
-  };
-
-  const paginationArray = Array.from({ length: pagesNumber }, (x, i) => i + 1);
-
   function handleCategoryChange(id: string) {
     setCurrentCategory(id);
     navigate(`/our-projects/${1}?category=${currentCategory}`);
@@ -43,7 +33,7 @@ function ProjectsGrid(props: { initialProjects: Project[] }) {
     }
     setProjects(
       initialProjects.filter(
-        (project: Project) => project.category === currentCategory
+        (project: any) => project.category === currentCategory
       )
     );
   }, [currentCategory]);
@@ -61,23 +51,18 @@ function ProjectsGrid(props: { initialProjects: Project[] }) {
         ))}
       </ul>
       <div className={styles.content}>
-        {getPaginatedData().map((project: Project) => (
-          <SingleProject project={project} />
-        ))}
+        {getPaginatedData(current, projectsPerPage, projects).map(
+          (project: Project) => (
+            <SingleProject project={project} />
+          )
+        )}
       </div>
-      <ul className={styles.pagination}>
-        {paginationArray.map((paginationNumber: number) => {
-          return (
-            <li className={`${paginationNumber === current && styles.current}`}>
-              <a
-                href={`http://localhost:3000/our-projects/${paginationNumber}?category=${currentCategory}`}
-              >
-                {paginationNumber}
-              </a>
-            </li>
-          );
-        })}
-      </ul>
+      <Pagination
+        current={current}
+        pagesNumber={pagesNumber}
+        page="our-projects"
+        currentCategory={currentCategory}
+      />
     </div>
   );
 }

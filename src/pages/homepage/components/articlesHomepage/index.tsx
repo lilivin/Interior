@@ -1,9 +1,12 @@
 import Articles from "../../../../components/articles";
 import Article from "../../../../components/articles/components/article";
 import Header, { HeaderType } from "../../../../components/header";
+import { getArticles } from "../../../../helpers/articles";
 import styles from "./index.module.scss";
 
 function ArticlesHomepage() {
+  let articles = getArticles(3);
+
   return (
     <div className={styles.container}>
       <Header type={HeaderType.Header01}>Articles & News</Header>
@@ -13,31 +16,19 @@ function ArticlesHomepage() {
         using.
       </p>
       <Articles>
-        <Article
-          category="Kitchan Design"
-          link="#"
-          date="26 December,2022"
-          photo="article-photo-1"
-        >
-          Let’s Get Solution For Building Construction Work
-        </Article>
-        <Article
-          category="Living Design"
-          link="#"
-          date="22 December,2022"
-          photo="article-photo-2"
-        >
-          Low Cost Latest Invented Interior Designing Ideas.
-        </Article>
-        <Article
-          category="Interior Design"
-          link="#"
-          date="25 December,2022"
-          photo="article-photo-3"
-        >
-          Best For Any Office & Business Interior Solution
-        </Article>
-      </Articles>
+          {articles.map(
+            (article) => (
+              <Article
+                id={article.id}
+                category={article.category}
+                date={article.date}
+                photo={article.photo}
+              >
+                {article.title}
+              </Article>
+            )
+          )}
+        </Articles>
     </div>
   );
 }

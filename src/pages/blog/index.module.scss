@@ -1,4 +1,12 @@
-.articlesContainer{
-    width: 1200px;
-    margin: 100px auto;
+@import "../../variables.scss";
+
+.articlesContainer {
+  width: calc(var(--max-width) - 40px);
+  margin: 100px auto;
+}
+
+@media (min-width: $monitor-breakpoint) {
+  .articlesContainer {
+    width: var(--max-width);
+  }
 }

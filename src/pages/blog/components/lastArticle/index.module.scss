@@ -1,23 +1,25 @@
+@import "../../../../variables.scss";
+
 .container {
-  width: 1200px;
+  width: calc(var(--max-width) - 40px);
   margin: 100px auto;
 }
 .article {
   display: flex;
+  flex-direction: column;
   gap: 50px;
-  align-items: center;
   margin-top: 30px;
   padding: 20px;
   border-radius: 30px;
   border: 1px solid var(--primary-3);
   .image {
-    width: 50%;
+    width: 100%;
     border-radius: 30px;
   }
   .content {
     display: flex;
     flex-direction: column;
-    width: 50%;
+    width: 100%;
     .link {
       display: flex;
       align-items: center;
@@ -29,6 +31,22 @@
     }
     p {
       margin: 20px 0;
+    }
+  }
+}
+
+@media (min-width: $tablet-breakpoint) {
+  .container{
+    width: var(--max-width);
+  }
+  .article {
+    flex-direction: row;
+    align-items: center;
+    .image {
+      width: 50%;
+    }
+    .content {
+      width: 50%;
     }
   }
 }

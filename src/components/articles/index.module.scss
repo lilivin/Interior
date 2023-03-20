@@ -1,13 +1,16 @@
-.container{
-    width: 1200px;
-    margin: 0 auto;
-    text-align: center;
+@import "../../variables.scss";
+
+.container {
+  width: var(--max-width);
+  margin: 0 auto;
+  text-align: center;
 }
 
-.articles{
-    display: flex;
-    margin-top: 30px;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 30px;
+.articles {
+  display: flex;
+  margin-top: 30px;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 30px;
 }

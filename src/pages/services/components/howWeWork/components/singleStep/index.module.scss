@@ -1,18 +1,17 @@
+@import "../../../../../../variables.scss";
+
 .container {
-  display: flex;
-  align-items: center;
-  gap: 50px;
+  display: block;
   padding: 20px 0;
   text-align: left;
   &.reverse{
     flex-direction: row-reverse;
   }
   .image {
+    width: 100%;
     border-radius: 0 150px 0 300px;
-    width: 50%;
   }
   .content {
-    width: 50%;
     .header {
       display: flex;
       align-items: center;
@@ -20,6 +19,20 @@
       color: var(--color-white);
       font-size: 120px;
       font-family: var(--font-2);
+    }
+  }
+}
+
+@media (min-width: $tablet-breakpoint) {
+  .container {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    .image {
+      width: 50%;
+    }
+    .content {
+      width: 50%;
     }
   }
 }

@@ -1,24 +1,52 @@
+@import "../../../../../../variables.scss";
+
 .project {
+  width: 100%;
+  height: 100%;
+  grid-column: 1/3;
+  .info {
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    align-items: center;
+    p {
+      width: 100%; /* IE6 needs any width */
+      overflow: hidden; /* "overflow" value must be different from  visible"*/
+      -o-text-overflow: ellipsis; /* Opera < 11*/
+      text-overflow: ellipsis;
+    }
+  }
+  .projectImage {
+    height: calc(100% - 100px);
     width: 100%;
-    height: 100%;
-    .info{
-      display: flex;
-      justify-content: space-between;
-      height: 100px;
-      align-items: center;
-    }
-    .projectImage{
-      height: calc(100% - 100px);
-      width: 100%;
-      object-fit: cover;
-    }
-    &:nth-of-type(1), &:nth-of-type(4){
-      height: 800px;
-    }
-    &:nth-of-type(2), &:nth-of-type(3){
+    object-fit: cover;
+  }
+}
+
+@media (min-width: $mobile-breakpoint) {
+  .project {
+    &:nth-of-type(1),
+    &:nth-of-type(4) {
       height: 500px;
     }
-    &:nth-of-type(1){
+    &:nth-of-type(2),
+    &:nth-of-type(3) {
+      height: 500px;
+    }
+  }
+}
+
+@media (min-width: $monitor-breakpoint) {
+  .project {
+    &:nth-of-type(1),
+    &:nth-of-type(4) {
+      height: 800px;
+    }
+    &:nth-of-type(2),
+    &:nth-of-type(3) {
+      height: 500px;
+    }
+    &:nth-of-type(1) {
       grid-row: 1/4;
       grid-column: 1/2;
     }
@@ -35,3 +63,4 @@
       grid-column: 2/3;
     }
   }
+}

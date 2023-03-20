@@ -1,0 +1,56 @@
+@import "../../../../variables.scss";
+
+.container {
+  width: 100%;
+}
+
+.latestNews {
+  display: flex;
+  flex-direction: column;
+  padding: 30px 0;
+}
+
+.singleNews {
+  display: block;
+  text-decoration: none;
+  border-bottom: 2px solid var(--primary-3);
+  padding: 10px 0;
+}
+
+.date {
+  font-size: var(--font-size-3);
+  text-align: right;
+  color: var(--primary-2);
+}
+
+@media (min-width: $mobile-breakpoint) {
+  .latestNews {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  .singleNews {
+    width: calc(50% - 10px);
+  }
+}
+
+@media (min-width: $tablet-breakpoint) {
+  .latestNews {
+    justify-content: space-between;
+  }
+  .singleNews {
+    width: calc(33% - 20px);
+  }
+}
+
+@media (min-width: $monitor-breakpoint) {
+  .container {
+    width: 300px;
+  }
+  .latestNews {
+    flex-direction: column;
+  }
+  .singleNews {
+    width: 100%;
+  }
+}

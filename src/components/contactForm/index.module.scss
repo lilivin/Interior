@@ -1,35 +1,51 @@
-.container{
-    width: 800px;
-    margin: 100px auto;
-    text-align: center;
-    .form{
-        display: grid;
-        grid-template-columns: auto auto;
-        grid-row: auto auto auto;
-        gap: 30px 50px;
-        margin-top: 70px;
+@import "../../variables.scss";
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  .form {
+    display: block;
+    gap: 30px 50px;
+  }
+  .input {
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid var(--primary-2);
+    padding: 5px;
+    &:focus {
+      outline: none;
     }
-    .input{
-        border: none;
-        border-bottom: 2px solid var(--primary-2);
-        padding: 5px;
-        &:focus{
-            outline: none;
-        }
+  }
+  .textarea {
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid var(--primary-2);
+    padding: 5px;
+    height: 200px;
+    resize: none;
+    &:focus {
+      outline: none;
     }
-    .textarea{
-        grid-column: 1/3;
-        border: none;
-        border-bottom: 2px solid var(--primary-2);
-        padding: 5px;
-        height: 200px;
-        resize: none;
-        &:focus{
-            outline: none;
-        }
+  }
+  input[type="submit"] {
+    margin: 30px auto 0;
+  }
+}
+
+@media (min-width: $mobile-breakpoint) {
+  .container {
+    .form {
+      display: grid;
+      grid-template-columns: auto auto;
+      grid-row: auto auto auto;
+      gap: 30px 50px;
     }
-    input[type=submit]{
-        grid-column: 1/3;
-        margin: 30px auto 0;
+    .textarea {
+      grid-column: 1/3;
     }
+    input[type="submit"] {
+      grid-column: 1/3;
+    }
+  }
 }

@@ -1,7 +1,7 @@
 import ContactForm from "../../components/contactForm";
 import ContentWithImage from "../../components/contentWithImage";
 import Footer from "../../components/footer";
-import Navigation from "../../components/navigation";
+import Header, { HeaderType } from "../../components/header";
 import PageTitle from "../../components/pageTitle";
 import Team from "../../components/team";
 import Quote from "./components/quote";
@@ -10,7 +10,6 @@ import styles from "./index.module.scss";
 function AboutUs() {
   return (
     <div className={styles.container}>
-      <Navigation />
       <PageTitle
         title="Abous Us"
         path="Home / Abous Us"
@@ -39,7 +38,12 @@ function AboutUs() {
         using that it has a more-or-less normal.
       </ContentWithImage>
       <Team />
-      <ContactForm />
+      <div className={styles.contact}>
+        <Header type={HeaderType.Header01}>
+          Creative project? Let's have a productive talk.
+        </Header>
+        <ContactForm />
+      </div>
       <Footer />
     </div>
   );

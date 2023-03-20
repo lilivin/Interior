@@ -1,9 +1,11 @@
+@import "../../variables.scss";
+
 .container {
   height: 350px;
   width: 100%;
   background-size: cover;
   background-position: center center;
-  margin: 20px 0;
+  margin: 0 0 20px;
   display: flex;
   justify-content: center;
   align-items: flex-end;
@@ -14,11 +16,7 @@
   background-color: var(--color-white);
   padding: 20px 30px;
   text-align: center;
-  width: 500px;
-  -webkit-border-top-left-radius: 10px;
-  -webkit-border-top-right-radius: 10px;
-  -moz-border-radius-topleft: 10px;
-  -moz-border-radius-topright: 10px;
+  width: 80%;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
   &:before,
@@ -44,5 +42,11 @@
     -webkit-border-radius: 0 0 10px 0;
     -webkit-box-shadow: 10px 0 0 0 #fff;
     box-shadow: 10px 0 0 0 #fff;
+  }
+}
+
+@media (min-width: $mobile-breakpoint) {
+  .info{
+    max-width: 500px;
   }
 }

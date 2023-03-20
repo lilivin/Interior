@@ -1,18 +1,37 @@
-.footer{
-    display: flex;
-    justify-content: space-around;
-    width: 100%;
-    width: 1200px;
-    gap: 40px;
-    margin: 0 auto;
+@import "../../variables.scss";
+
+.footer {
+  display: block;
+  width: calc(var(--max-width) - 40px);
+  margin: 0 auto;
 }
 
-.column{
+.column {
+  width: 100%;
+  margin: 20px 0;
+  ul {
+    font-size: var(--font-size-3);
+  }
+}
+
+@media (min-width: $mobile-breakpoint) {
+  .footer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+  }
+  .column {
     width: 22%;
-    &:nth-of-type(1){
-        width: 33%
+    &:nth-of-type(1) {
+      width: 33%;
     }
-    ul{
-        font-size: var(--font-size-3);
-    }
+  }
+}
+
+@media (min-width: $monitor-breakpoint) {
+  .footer {
+    width: var(--max-width);
+    justify-content: space-around;
+    flex-wrap: nowrap;
+  }
 }
