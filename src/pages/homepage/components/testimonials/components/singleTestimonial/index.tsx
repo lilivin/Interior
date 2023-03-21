@@ -1,5 +1,4 @@
 import Header, { HeaderType } from "../../../../../../components/header";
-import UserPhoto from "../../../../../../assets/user-photo-1.png";
 import styles from "./index.module.scss";
 
 function SingleTestimonial(props: {

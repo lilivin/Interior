@@ -33,7 +33,7 @@ function ProjectsGrid() {
     }
     setProjects(
       initialProjects.filter(
-        (project: any) => project.category === currentCategory
+        (project: Project) => project.category === currentCategory
       )
     );
   }, [currentCategory]);

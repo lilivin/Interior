@@ -20,14 +20,22 @@
 }
 
 .title {
-  font-size: 85px;
-  line-height: 90px;
+  font-size: 50px;
+  line-height: 55px;
   font-family: var(--font-2);
 }
 
 .subtext {
   margin: 20px 0;
 }
+
+@media (min-width: $mobile-breakpoint) {
+  .title {
+    font-size: 85px;
+    line-height: 90px;
+  }
+}
+
 
 @media (min-width: $monitor-breakpoint) {
   .banner {

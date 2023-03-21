@@ -6,11 +6,10 @@ import ImageDivider from "../../components/imageDivider";
 import PageTitle from "../../components/pageTitle";
 import Details from "./components/details";
 import Points from "./components/points";
-import styles from "./index.module.scss";
 
 function SingleService() {
   return (
-    <div className={styles.container}>
+    <>
       <PageTitle
         title="Service Single"
         path="Home / Services Single"
@@ -32,7 +31,7 @@ function SingleService() {
       </ContentWithImage>
       <Counter />
       <Footer />
-    </div>
+    </>
   );
 }
 

@@ -30,18 +30,12 @@
   &:after {
     right: -20px;
     border-radius: 0 0 0 10px;
-    -moz-border-radius: 0 0 0 10px;
-    -webkit-border-radius: 0 0 0 10px;
-    -webkit-box-shadow: -10px 0 0 0 #fff;
-    box-shadow: -10px 0 0 0 #fff;
+    box-shadow: -10px 0 0 0 var(--color-white);
   }
   &:before {
     left: -20px;
     border-radius: 0 0 10px 0;
-    -moz-border-radius: 0 0 10px 0;
-    -webkit-border-radius: 0 0 10px 0;
-    -webkit-box-shadow: 10px 0 0 0 #fff;
-    box-shadow: 10px 0 0 0 #fff;
+    box-shadow: 10px 0 0 0 var(--color-white);
   }
 }
 

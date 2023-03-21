@@ -2,11 +2,10 @@ import { ScrollRestoration } from "react-router-dom";
 import Footer from "../../components/footer";
 import PageTitle from "../../components/pageTitle";
 import ProjectsGrid from "./components/projectsGrid";
-import styles from "./index.module.scss";
 
 function OurProjects() {
   return (
-    <div className={styles.container}>
+    <div>
       <ScrollRestoration />
       <PageTitle
         title="Our Projects"

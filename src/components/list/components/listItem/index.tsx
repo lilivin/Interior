@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import styles from "./index.module.scss";
 
 function ListItem(props: { children: string; href?: string }) {
@@ -5,7 +6,7 @@ function ListItem(props: { children: string; href?: string }) {
   if (href) {
     return (
       <li className={styles.container}>
-        <a href={href}>{children}</a>
+        <Link to={href}>{children}</Link>
       </li>
     );
   }

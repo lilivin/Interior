@@ -1,5 +1,4 @@
 import Button, { ButtonSize, ButtonStyles } from "../button";
-import Header, { HeaderType } from "../header";
 import styles from "./index.module.scss";
 
 function ContactForm() {

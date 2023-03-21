@@ -1,4 +1,3 @@
-import { useEffect } from "react";
 import { useParams } from "react-router-dom";
 import Articles from "../../components/articles";
 import Article from "../../components/articles/components/article";

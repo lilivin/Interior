@@ -1,6 +1,21 @@
-.container{
+@import "../../../../variables.scss";
+
+.container {
+  width: calc(var(--max-width) - 40px);
+  margin: 100px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+@media (min-width: $tablet-breakpoint) {
+  .container {
+    flex-direction: row;
+  }
+}
+
+@media (min-width: $monitor-breakpoint) {
+  .container {
     width: var(--max-width);
-    margin: 100px auto;
-    display: flex;
-    gap: 30px;
+  }
 }

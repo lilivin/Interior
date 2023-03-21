@@ -1,27 +1,26 @@
 import Header, { HeaderType } from "../../../../../../components/header";
 import styles from "./index.module.scss";
-import RightArrow from "../../../../../../assets/href-right-arrow.svg";
 import IconArrowButton from "../../../../../../components/iconArrowButton";
 
-function Project(props: {
+function SingleProject(props: {
+  id: string,
   title: string;
   type: string;
-  href: string;
   image: string;
 }) {
-  const { title, type, href, image } = props;
+  const { id, title, type, image } = props;
   return (
     <div className={styles.container}>
       <img src={require(`../../../../../../assets/${image}.png`)} alt={title} />
       <div className={styles.info}>
         <div>
           <Header type={HeaderType.Header03}>{title}</Header>
-          <p>{type}</p>
+          <p className={styles.type}>{type}</p>
         </div>
-        <IconArrowButton href="#" />
+        <IconArrowButton href={`http://localhost:3000/project/${id}`} />
       </div>
     </div>
   );
 }
 
-export default Project;
+export default SingleProject;

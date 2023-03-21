@@ -1,8 +1,10 @@
 import Header, { HeaderType } from "../../../../components/header";
-import Project from "./components/project";
+import { getProjects, Project } from "../../../../helpers/projects";
+import SingleProject from "./components/singleProject";
 import styles from "./index.module.scss";
 
 function Projects() {
+  const initialProjects = getProjects(4);
   return (
     <div className={styles.container}>
       <Header type={HeaderType.Header01}>Follow Our Projects</Header>
@@ -11,30 +13,14 @@ function Projects() {
         readable content of page lookings at its layouts points.
       </p>
       <div className={styles.projects}>
-        <Project
-          title="Modern Kitchan"
-          type="Decor / Artchitecture"
-          href="#"
-          image="project-photo-1"
-        />
-        <Project
-          title="Modern Kitchan"
-          type="Decor / Artchitecture"
-          href="#"
-          image="project-photo-2"
-        />
-        <Project
-          title="Modern Kitchan"
-          type="Decor / Artchitecture"
-          href="#"
-          image="project-photo-3"
-        />
-        <Project
-          title="Modern Kitchan"
-          type="Decor / Artchitecture"
-          href="#"
-          image="project-photo-4"
-        />
+        {initialProjects.map((project: Project) => (
+          <SingleProject
+            id={project.id}
+            title={project.title}
+            type={project.category}
+            image={project.photos[0].image}
+          />
+        ))}
       </div>
     </div>
   );

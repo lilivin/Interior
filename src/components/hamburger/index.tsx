@@ -9,9 +9,6 @@ function Hamburger(props: {setIsOpen: (arg: boolean) => void, isOpen: boolean}) 
         <span className={styles.line}></span>
         <span className={styles.line}></span>
       </div>
-      {/* <ul className={`${styles.menu} ${isOpen && styles.open}`}>
-        <li>Test</li>
-      </ul> */}
     </>
   );
 }

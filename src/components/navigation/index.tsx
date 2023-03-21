@@ -7,7 +7,7 @@ import styles from "./index.module.scss";
 
 function Navigation() {
   const [scroll, setScroll] = useState(false);
-  const [ isOpen, setIsOpen ] = useState(false);
+  const [isOpen, setIsOpen] = useState(false);
 
   useEffect(() => {
     if (typeof window !== "undefined") {
@@ -16,6 +16,7 @@ function Navigation() {
       );
     }
   }, []);
+
   return (
     <div className={`${styles.navigation} ${scroll && styles.scroll}`}>
       <Link className={styles.logo} to="/">

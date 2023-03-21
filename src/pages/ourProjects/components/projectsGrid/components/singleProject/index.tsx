@@ -1,12 +1,13 @@
 import Header, { HeaderType } from "../../../../../../components/header";
 import IconArrowButton from "../../../../../../components/iconArrowButton";
+import { Project } from "../../../../../../helpers/projects";
 import styles from "./index.module.scss";
 
 function truncate(str: string, n: number) {
   return str.length > n ? str.slice(0, n - 1) + "..." : str;
 }
 
-function SingleProject(props: { project: any }) {
+function SingleProject(props: { project: Project }) {
   const { project } = props;
   return (
     <div className={styles.project}>

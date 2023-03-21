@@ -16,6 +16,7 @@
 @media (min-width: $monitor-breakpoint) {
   .container {
     .content {
+      flex-wrap: nowrap;
       width: var(--max-width);
     }
   }

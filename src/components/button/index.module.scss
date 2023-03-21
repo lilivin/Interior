@@ -12,7 +12,7 @@
   text-align: center;
   font-weight: 600;
   border-radius: 18px;
-  padding: 26px 0;
+  padding: 15px 0;
   cursor: pointer;
   &:after {
     display: block;
@@ -32,9 +32,21 @@
     }
   }
   &.default {
-    width: 250px;
+    width: 180px;
   }
   &.large {
-    width: 290px;
+    width: 220px;
+  }
+}
+
+@media (min-width: $mobile-breakpoint) {
+  .button {
+    padding: 26px 0;
+    &.default {
+      width: 250px;
+    }
+    &.large {
+      width: 290px;
+    }
   }
 }

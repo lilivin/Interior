@@ -10,9 +10,9 @@
     height: 100px;
     align-items: center;
     p {
-      width: 100%; /* IE6 needs any width */
-      overflow: hidden; /* "overflow" value must be different from  visible"*/
-      -o-text-overflow: ellipsis; /* Opera < 11*/
+      width: 100%;
+      overflow: hidden; 
+      -o-text-overflow: ellipsis; 
       text-overflow: ellipsis;
     }
   }

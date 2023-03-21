@@ -9,11 +9,10 @@ import ArticlesHomepage from "./components/articlesHomepage";
 import Banner from "./components/banner";
 import Projects from "./components/projects";
 import Testimonials from "./components/testimonials";
-import styles from "./index.module.scss";
 
 function Homepage() {
   return (
-    <div className={`${styles.container}`}>
+    <>
       <Banner />
       <Works>
         <SignleWork title="Project Plan" href="#">
@@ -37,7 +36,7 @@ function Homepage() {
       <ArticlesHomepage />
       <Contact />
       <Footer />
-    </div>
+    </>
   );
 }
 

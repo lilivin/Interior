@@ -2,8 +2,6 @@ import Header, { HeaderType } from "../header";
 import List, { ListType } from "../list";
 import ListItem from "../list/components/listItem";
 import Logo from "../logo";
-import FooterList from "./components/footerList";
-import FooterListItem from "./components/footerListItem";
 import FooterSocialMedia from "./components/footerSocialMedia";
 import styles from "./index.module.scss";
 
