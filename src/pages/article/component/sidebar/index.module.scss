@@ -7,14 +7,14 @@
 .latestNews {
   display: flex;
   flex-direction: column;
-  padding: 30px 0;
+  padding: 1.875rem 0;
 }
 
 .singleNews {
   display: block;
   text-decoration: none;
   border-bottom: 2px solid var(--primary-3);
-  padding: 10px 0;
+  padding: 0.625rem 0;
 }
 
 .date {
@@ -27,10 +27,10 @@
   .latestNews {
     flex-direction: row;
     flex-wrap: wrap;
-    gap: 20px;
+    gap: 1.25rem;
   }
   .singleNews {
-    width: calc(50% - 10px);
+    width: calc(50% - 0.625rem);
   }
 }
 
@@ -39,13 +39,13 @@
     justify-content: space-between;
   }
   .singleNews {
-    width: calc(33% - 20px);
+    width: calc(33% - 1.25rem);
   }
 }
 
 @media (min-width: $monitor-breakpoint) {
   .container {
-    width: 300px;
+    width: 18.75rem;
   }
   .latestNews {
     flex-direction: column;

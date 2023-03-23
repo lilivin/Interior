@@ -2,7 +2,7 @@ import { ComponentStory, ComponentMeta } from "@storybook/react";
 import PageTitle from ".";
 
 export default {
-  title: "Example/PageTitle",
+  title: "Interior/PageTitle",
   component: PageTitle,
 } as ComponentMeta<typeof PageTitle>;
 

@@ -2,7 +2,7 @@ import { ComponentStory, ComponentMeta } from "@storybook/react";
 import ContactForm from ".";
 
 export default {
-  title: "Example/ContactForm",
+  title: "Interior/ContactForm",
   component: ContactForm,
 } as ComponentMeta<typeof ContactForm>;
 

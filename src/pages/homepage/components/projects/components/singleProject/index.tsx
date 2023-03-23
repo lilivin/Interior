@@ -11,7 +11,7 @@ function SingleProject(props: {
   const { id, title, type, image } = props;
   return (
     <div className={styles.container}>
-      <img src={require(`../../../../../../assets/${image}.png`)} alt={title} />
+      <img src={require(`../../../../../../assets/projects/${image}.png`)} alt={title} />
       <div className={styles.info}>
         <div>
           <Header type={HeaderType.Header03}>{title}</Header>

@@ -1,22 +1,22 @@
 @import "../../variables.scss";
 
 .container {
-  width: calc(var(--max-width) - 40px);
-  gap: 40px;
-  margin: 40px auto;
+  width: calc(var(--max-width) - 2.5rem);
+  gap: 2.5rem;
+  margin: 2.5rem auto;
   .content {
     display: flex;
     flex-direction: column;
     justify-content: center;
     width: 100%;
-    gap: 20px;
+    gap: 1.25rem;
   }
   .image {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    border-radius: 50px;
-    margin-top: 30px;
+    border-radius: 3.125rem;
+    margin-top: 1.875rem;
   }
 }
 
@@ -24,13 +24,13 @@
   .container {
     display: flex;
     align-items: center;
-    margin: 100px auto;
+    margin: 6.25rem auto;
     .content {
       width: 45%;
     }
     .image {
       width: 55%;
-      margin-top: 0px;
+      margin-top: 0;
     }
     &.reverse {
       flex-direction: row-reverse;

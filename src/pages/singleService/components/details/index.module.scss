@@ -1,20 +1,20 @@
 @import "../../../../variables.scss";
 
 .container {
-  width: calc(var(--max-width) - 40px);
-  margin: 100px auto;
+  width: calc(var(--max-width) - 2.5rem);
+  margin: 6.25rem auto;
   display: flex;
   flex-direction: column;
-  gap: 40px;
+  gap: 2.5rem;
   h3 {
     width: 100%;
   }
   .content {
     width: 100%;
-    padding-top: 10px;
+    padding-top: 0.625rem;
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    gap: 1.875rem;
     p {
       &:nth-of-type(1) {
         color: var(--primary-1);

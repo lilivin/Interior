@@ -4,44 +4,44 @@
   color: var(--primary-2);
   font-family: var(--font-2);
   &.header01 {
-    font-size: 40px;
+    font-size: 2.5rem;
   }
   &.header02 {
-    font-size: 28px;
+    font-size: 1.75rem;
   }
   &.header03 {
-    font-size: 18pxpx;
+    font-size: 1.125rem;
   }
   &.header04 {
-    font-size: 16px;
+    font-size: 1rem;
   }
   &.header05 {
-    font-size: 14pxpx;
+    font-size: 0.875rem;
   }
   &.header06 {
-    font-size: 12px;
+    font-size: 0.75rem;
   }
 }
 
 @media(min-width: $mobile-breakpoint){
   .header {
     &.header01 {
-      font-size: 50px;
+      font-size: 3.125rem;
     }
     &.header02 {
-      font-size: 35px;
+      font-size: 2.9rem;
     }
     &.header03 {
-      font-size: 25px;
+      font-size: 1.6rem;
     }
     &.header04 {
-      font-size: 22px;
+      font-size: 1.375rem;
     }
     &.header05 {
-      font-size: 20px;
+      font-size: 1.25rem;
     }
     &.header06 {
-      font-size: 18px;
+      font-size: 1.125rem;
     }
   }
 }

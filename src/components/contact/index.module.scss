@@ -6,25 +6,25 @@
   align-items: center;
   background: var(--primary-2);
   color: var(--color-white);
-  width: var(--max-width);
-  margin: 100px auto;
+  width: calc(var(--max-width) - 2.5rem);
+  margin: 6.25rem auto;
   text-align: center;
-  padding: 50px 20px 60px;
-  border-radius: 70px;
+  padding: 3.125rem 1.25rem 3.75rem;
+  border-radius: 4.375rem;
   .title {
     color: var(--color-white);
     font-family: var(--font-2);
     font-weight: 500;
-    font-size: 55px;
+    font-size: 3.4rem;
   }
   a {
-    margin-top: 40px;
+    margin-top: 2.5rem;
   }
 }
 
 @media (min-width: $monitor-breakpoint) {
   .container {
     width: var(--max-width);
-    padding: 50px 0 60px;
+    padding: 3.125rem 0 3.75rem;
   }
 }

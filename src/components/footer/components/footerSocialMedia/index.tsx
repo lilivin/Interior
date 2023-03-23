@@ -1,8 +1,8 @@
 import styles from "./index.module.scss";
-import FacebookLogo from "../../../../assets/facebook-icon.svg";
-import TwitterLogo from "../../../../assets/twitter-icon.svg";
-import LinkedinLogo from "../../../../assets/linkedin-icon.svg";
-import InstagramLogo from "../../../../assets/instagram-icon.svg";
+import FacebookLogo from "../../../../assets/icons/facebook-icon.svg";
+import TwitterLogo from "../../../../assets/icons/twitter-icon.svg";
+import LinkedinLogo from "../../../../assets/icons/linkedin-icon.svg";
+import InstagramLogo from "../../../../assets/icons/instagram-icon.svg";
 
 function FooterSocialMedia() {
   return (

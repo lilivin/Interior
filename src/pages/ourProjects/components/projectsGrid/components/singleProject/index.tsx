@@ -13,7 +13,7 @@ function SingleProject(props: { project: Project }) {
     <div className={styles.project}>
       <img
         className={styles.projectImage}
-        src={require(`../../../../../../assets/${project.photos[0].image}.png`)}
+        src={require(`../../../../../../assets/projects/${project.photos[0].image}.png`)}
         alt={project.photos[0].alt}
       />
       <div className={styles.info}>

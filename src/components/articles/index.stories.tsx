@@ -3,7 +3,7 @@ import Articles from ".";
 import Article from "./components/article";
 
 export default {
-  title: "Example/Articles",
+  title: "Interior/Articles",
   component: Articles,
 } as ComponentMeta<typeof Articles>;
 

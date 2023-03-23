@@ -3,7 +3,7 @@ import Works from ".";
 import SignleWork from "./component/singleWork";
 
 export default {
-  title: "Example/Works",
+  title: "Interior/Works",
   component: Works,
 } as ComponentMeta<typeof Works>;
 

@@ -1,6 +1,6 @@
 .btnSlide {
-    width: 60px;
-    height: 60px;
+    width: 3.75rem;
+    height: 3.75rem;
     border-radius: 50%;
     border: 1px solid var(--primary-2);
     background: var(--primary-3);
@@ -10,18 +10,18 @@
     align-items: center;
     cursor: pointer;
     img {
-      width: 25px;
-      height: 25px;
+      width: 1.625rem;
+      height: 1.625rem;
       pointer-events: none;
     }
     &.prev {
       top: 50%;
-      left: 20px;
+      left: 1.25rem;
       transform: translateY(-60%) rotate(180deg);
     }
     &.next {
       top: 50%;
-      right: 20px;
+      right: 1.25rem;
       transform: translateY(-60%);
     }
   }

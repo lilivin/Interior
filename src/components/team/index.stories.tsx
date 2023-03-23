@@ -3,7 +3,7 @@ import Team from ".";
 import PageTitle from ".";
 
 export default {
-  title: "Example/Team",
+  title: "Interior/Team",
   component: PageTitle,
 } as ComponentMeta<typeof Team>;
 

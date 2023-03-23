@@ -1,11 +1,11 @@
 @import "../../../../variables.scss";
 
 .container {
-  width: calc(var(--max-width) - 40px);
-  height: 500px;
-  margin: 100px auto;
+  width: calc(var(--max-width) - 2.5rem);
+  height: 31.25rem;
+  margin: 6.25rem auto;
   position: relative;
-  border-radius: 30px;
+  border-radius: 1.875rem;
   overflow: hidden;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }

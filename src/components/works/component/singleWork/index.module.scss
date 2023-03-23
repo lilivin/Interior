@@ -3,8 +3,8 @@
 .container {
   text-align: center;
   width: 100%;
-  padding: 50px 30px;
-  border-radius: 20px;
+  padding: 3.125rem 1.875rem;
+  border-radius: 1.25rem;
   margin: 0 auto;
   transition: 300ms;
   &:hover {
@@ -15,33 +15,33 @@
 .button {
   position: relative;
   display: inline-block;
-  margin-top: 40px;
-  padding-right: 30px;
+  margin-top: 2.5rem;
+  padding-right: 1.875rem;
   font-size: var(--font-size-3);
   text-decoration: none;
   color: var(--primary-2);
   font-weight: 700;
   &:after {
-    content: url("../../../../assets/primary-color-arrow.svg");
+    content: url("../../../../assets/icons/primary-color-arrow.svg");
     position: absolute;
     right: 0px;
-    top: 3px;
+    top: 0.25rem;
   }
 }
 
 @media (min-width: $monitor-breakpoint) {
   .container {
-    width: calc(33% - 15px);
+    width: calc(33% - 1rem);
   }
 }
 
 @media (min-width: $tablet-breakpoint) {
   .container {
-    width: calc(50% - 15px);
+    width: calc(50% - 1rem);
   }
 }
 @media (min-width: $monitor-breakpoint) {
   .container {
-    width: calc(33% - 15px);
+    width: calc(33% - 1rem);
   }
 }

@@ -3,7 +3,7 @@ import ImageDivider from ".";
 import Team from ".";
 
 export default {
-  title: "Example/ImageDivider",
+  title: "Interior/ImageDivider",
   component: ImageDivider,
 } as ComponentMeta<typeof Team>;
 

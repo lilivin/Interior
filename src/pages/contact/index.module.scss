@@ -1,32 +1,32 @@
 @import "../../variables.scss";
 
 .content {
-  width: calc(var(--max-width) - 40px);
-  margin: 100px auto;
+  width: calc(var(--max-width) - 2.5rem);
+  margin: 6.25rem auto;
   text-align: center;
   .contactWays {
     display: flex;
     flex-direction: column;
-    gap: 50px;
-    margin-top: 50px;
+    gap: 3.125rem;
+    margin-top: 3.125rem;
     .info {
       width: 100%;
       background: var(--primary-3);
-      border-radius: 30px;
+      border-radius: 1.875rem;
       display: flex;
       flex-direction: column;
-      gap: 15px;
+      gap: 1rem;
       justify-content: center;
-      padding: 15px 30px;
+      padding: 1rem 1.875rem;
       .way {
         display: flex;
         justify-content: center;
         align-items: center;
-        gap: 20px;
+        gap: 1.25rem;
         width: 100%;
         a {
           display: block;
-          width: calc(100% - 60px);
+          width: calc(100% - 3.75rem);
           color: var(--primary-2);
           text-decoration: none;
           text-align: left;
@@ -37,8 +37,8 @@
           align-items: center;
           justify-content: center;
           background-color: var(--color-white);
-          width: 60px;
-          height: 60px;
+          width: 3.75rem;
+          height: 3.75rem;
           border-radius: 50%;
         }
       }

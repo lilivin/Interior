@@ -2,7 +2,7 @@ import { ComponentStory, ComponentMeta } from '@storybook/react';
 import Counter from '.';
 
 export default {
-  title: 'Example/Counter',
+  title: 'Interior/Counter',
   component: Counter,
 } as ComponentMeta<typeof Counter>;
 

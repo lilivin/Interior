@@ -1,12 +1,12 @@
 @import "../../variables.scss";
 
 .contact {
-  width: calc(var(--max-width) - 40px);
-  margin: 100px auto;
+  width: calc(var(--max-width) - 2.5rem);
+  margin: 6.25rem auto;
   text-align: center;
   form {
     width: 100%;
-    margin: 80px auto 0;
+    margin: 5rem auto 0;
   }
 }
 
@@ -14,7 +14,7 @@
   .contact {
     width: (--max-width);
     form {
-      width: 800px;
+      width: 50rem;
     }
   }
 }

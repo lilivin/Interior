@@ -2,9 +2,9 @@ import ContactForm from "../../components/contactForm";
 import Footer from "../../components/footer";
 import Header, { HeaderType } from "../../components/header";
 import PageTitle from "../../components/pageTitle";
-import MessageIcon from "../../assets/message-icon.svg";
-import PhoneIcon from "../../assets/telephone-icon.svg";
-import WorldIcon from "../../assets/world-icon.svg";
+import MessageIcon from "../../assets/icons/message-icon.svg";
+import PhoneIcon from "../../assets/icons/telephone-icon.svg";
+import WorldIcon from "../../assets/icons/world-icon.svg";
 import styles from "./index.module.scss";
 
 function Contact() {

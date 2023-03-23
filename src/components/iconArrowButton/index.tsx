@@ -1,5 +1,5 @@
 import styles from "./index.module.scss";
-import RightArrow from "../../assets/href-right-arrow.svg";
+import RightArrow from "../../assets/icons/href-right-arrow.svg";
 import { Link } from "react-router-dom";
 
 function IconArrowButton(props: { href: string }) {

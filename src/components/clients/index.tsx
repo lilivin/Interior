@@ -27,7 +27,7 @@ function Clients() {
   return (
     <div className={styles.container}>
       {clients.map((client) => {
-        return <img key={client.name} src={require(`../../assets/${client.image}.svg`)} alt={client.name} />
+        return <img key={client.name} src={require(`../../assets/clients-logo/${client.image}.svg`)} alt={client.name} />
       })}
     </div>
   );

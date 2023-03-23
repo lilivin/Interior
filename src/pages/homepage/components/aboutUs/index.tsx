@@ -5,7 +5,7 @@ import Button, {
 import Header, { HeaderType } from "../../../../components/header";
 import styles from "./index.module.scss";
 import AboutUsImage from "../../../../assets/homepage-about-us-photo.png";
-import CallIcon from "../../../../assets/phone-icon.svg";
+import CallIcon from "../../../../assets/icons/phone-icon.svg";
 
 function AboutUs() {
   return (

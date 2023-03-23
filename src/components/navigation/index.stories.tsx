@@ -2,7 +2,7 @@ import { ComponentStory, ComponentMeta } from "@storybook/react";
 import Navigation from ".";
 
 export default {
-  title: "Example/Navigation",
+  title: "Interior/Navigation",
   component: Navigation,
 } as ComponentMeta<typeof Navigation>;
 

@@ -3,7 +3,7 @@ import List, { ListType } from ".";
 import ListItem from "./components/listItem";
 
 export default {
-  title: "Example/List",
+  title: "Interior/List",
   component: List,
 } as ComponentMeta<typeof List>;
 

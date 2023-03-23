@@ -1,10 +1,10 @@
 @import "../../variables.scss";
 
 .image {
-  width: calc(var(--max-width) - 40px);
-  margin: 100px auto;
+  width: calc(var(--max-width) - 2.5rem);
+  margin: 6.25rem auto;
   object-fit: cover;
-  border-radius: 40px;
+  border-radius: 2.5rem;
 }
 
 @media (min-width: $monitor-breakpoint) {

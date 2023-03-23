@@ -1,29 +1,29 @@
 @import "../../variables.scss";
 
 .content {
-  width: calc(var(--max-width) - 40px);
-  margin: 100px auto;
+  width: calc(var(--max-width) - 2.5rem);
+  margin: 6.25rem auto;
   display: flex;
   flex-direction: column;
-  gap: 50px;
+  gap: 3.125rem;
   justify-content: space-between;
 }
 
 .article {
   width: 100%;
   p {
-    margin: 30px 0;
+    margin: 1.875rem 0;
   }
   img {
     width: 100%;
-    border-radius: 30px;
-    margin-top: 20px;
+    border-radius: 1.875rem;
+    margin-top: 1.25rem;
   }
   .contact {
     border-top: 1px solid var(--primary-3);
-    padding: 30px 0 100px;
+    padding: 1.875rem 0 6.25rem;
     form {
-      margin-top: 30px;
+      margin-top: 1.875rem;
       input[type=submit]{
         margin: 0;
       }
@@ -37,6 +37,6 @@
     flex-direction: row;
   }
   .article {
-    width: calc(100% - 300px);
+    width: calc(100% - 18.75rem);
   }
 }

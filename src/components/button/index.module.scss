@@ -1,52 +1,52 @@
 @import "../../variables.scss";
 
 .button {
-  font-size: 18px;
+  font-size: 1.2rem;
   color: var(--color-white);
   border: none;
   text-decoration: none;
   padding: 0;
   display: flex;
   justify-content: center;
-  gap: 8px;
+  gap: .5rem;
   text-align: center;
   font-weight: 600;
-  border-radius: 18px;
-  padding: 15px 0;
+  border-radius: 1.2rem;
+  padding: 1rem 0;
   cursor: pointer;
   &:after {
     display: block;
-    height: 21px;
-    margin-top: 3px;
+    height: 1.3rem;
+    margin-top: .2rem;
   }
   &.primary {
     background-color: var(--primary-2);
     &:after {
-      content: url("../../assets/primary-color-arrow.svg");
+      content: url("../../assets/icons/primary-color-arrow.svg");
     }
   }
   &.secendary {
     background-color: var(--primary-1);
     &:after {
-      content: url("../../assets/secendary-color-arrow.svg");
+      content: url("../../assets/icons/secendary-color-arrow.svg");
     }
   }
   &.default {
-    width: 180px;
+    width: 11.25rem;
   }
   &.large {
-    width: 220px;
+    width: 13.75rem;
   }
 }
 
 @media (min-width: $mobile-breakpoint) {
   .button {
-    padding: 26px 0;
+    padding: 1.6rem 0;
     &.default {
-      width: 250px;
+      width: 15.625rem;
     }
     &.large {
-      width: 290px;
+      width: 18.125rem;
     }
   }
 }

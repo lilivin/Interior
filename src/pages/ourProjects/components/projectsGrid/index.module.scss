@@ -1,13 +1,13 @@
 @import "../../../../variables.scss";
 
 .container {
-  width: calc(var(--max-width) - 40px);
-  margin: 100px auto;
+  width: calc(var(--max-width) - 2.5rem);
+  margin: 6.25rem auto;
   display: flex;
   flex-direction: column;
   .content {
     display: grid;
-    gap: 30px;
+    gap: 1.875rem;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(5, auto);
   }
@@ -16,17 +16,17 @@
 .categories{
   list-style: none;
   padding: 0;
-  margin: 0 auto 50px;
+  margin: 0 auto 3.125rem;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   border: 1px solid var(--primary-1);
-  border-radius: 20px;
+  border-radius: 1.25rem;
   li{
     width: 50%;
     text-align: center;
-    padding: 15px 20px;
-    border-radius: 20px;
+    padding: 1rem 1.25rem;
+    border-radius: 1.25rem;
     font-weight: 500;
     cursor: pointer;
     transition: 300ms;
@@ -39,7 +39,7 @@
 
 @media (min-width: $tablet-breakpoint) {
   .categories{
-    width: 800px;
+    width: 50rem;
     li{
       width: 25%;
     }

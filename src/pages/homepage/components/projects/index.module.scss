@@ -1,16 +1,16 @@
 @import "../../../../variables.scss";
 
 .container {
-  width: calc(var(--max-width) - 40px);
-  margin: 100px auto;
+  width: calc(var(--max-width) - 2.5rem);
+  margin: 6.25rem auto;
   text-align: center;
 }
 
 .projects {
-  margin-top: 50px;
+  margin-top: 3.125rem;
   display: flex;
   flex-wrap: wrap;
-  gap: 50px 100px;
+  gap: 3.125rem 6.25rem;
 }
 
 @media (min-width: $monitor-breakpoint) {

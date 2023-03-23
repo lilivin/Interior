@@ -15,7 +15,7 @@ function Slide(props: {
       }`}
     >
       <img
-        src={require(`../../../../../../assets/${sliderImage.image}.png`)}
+        src={require(`../../../../../../assets/projects/${sliderImage.image}.png`)}
         alt={sliderImage.alt}
       />
     </div>

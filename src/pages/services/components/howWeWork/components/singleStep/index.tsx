@@ -14,14 +14,14 @@ function SingleStep(props: {
     <div className={`${styles.container} ${reverse && styles.reverse}`}>
       <img
         className={styles.image}
-        src={require(`../../../../../../assets/${image}.png`)}
+        src={require(`../../../../../../assets/services/${image}.png`)}
         alt={`${title} image`}
       />
       <div className={styles.content}>
         <div className={styles.header}>
           <img
             className={styles.icon}
-            src={require(`../../../../../../assets/${icon}.svg`)}
+            src={require(`../../../../../../assets/services/${icon}.svg`)}
             alt={`${title} icon`}
           />
           <span>{number}</span>

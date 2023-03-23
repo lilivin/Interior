@@ -2,7 +2,7 @@ import { ComponentStory, ComponentMeta } from "@storybook/react";
 import ContentWithImage from ".";
 
 export default {
-  title: "Example/ContentWithImage",
+  title: "Interior/ContentWithImage",
   component: ContentWithImage,
 } as ComponentMeta<typeof ContentWithImage>;
 

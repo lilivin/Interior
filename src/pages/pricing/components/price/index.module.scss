@@ -1,11 +1,11 @@
 @import "../../../../variables.scss";
 
 .container {
-  width: calc(var(--max-width) - 40px);
-  margin: 100px auto;
+  width: calc(var(--max-width) - 2.5rem);
+  margin: 6.25rem auto;
   display: flex;
   flex-direction: column;
-  gap: 30px;
+  gap: 1.875rem;
 }
 
 @media (min-width: $tablet-breakpoint) {

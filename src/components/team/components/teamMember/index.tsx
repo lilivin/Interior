@@ -1,10 +1,10 @@
 import { useState } from "react";
 import Header, { HeaderType } from "../../../header";
 import styles from "./index.module.scss";
-import FacebookLogo from "../../../../assets/facebook-icon.svg";
-import TwitterLogo from "../../../../assets/twitter-icon.svg";
-import LinkedinLogo from "../../../../assets/linkedin-icon.svg";
-import InstagramLogo from "../../../../assets/instagram-icon.svg";
+import FacebookLogo from "../../../../assets/icons/facebook-icon.svg";
+import TwitterLogo from "../../../../assets/icons/twitter-icon.svg";
+import LinkedinLogo from "../../../../assets/icons/linkedin-icon.svg";
+import InstagramLogo from "../../../../assets/icons/instagram-icon.svg";
 
 function TeamMember(props: {
   name: string;
@@ -34,7 +34,7 @@ function TeamMember(props: {
     <div onClick={() => setFlip(!flip)} className={styles.container}>
       <div className={`${styles.card} ${flip && styles.flipped}`}>
         <div className={styles.front}>
-          <img src={require(`../../../../assets/${image}.png`)} alt={name} />
+          <img src={require(`../../../../assets/team-members/${image}.png`)} alt={name} />
         </div>
         <div className={styles.back}>
           <div>

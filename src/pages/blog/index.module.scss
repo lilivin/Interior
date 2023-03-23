@@ -1,8 +1,8 @@
 @import "../../variables.scss";
 
 .articlesContainer {
-  width: calc(var(--max-width) - 40px);
-  margin: 100px auto;
+  width: calc(var(--max-width) - 2.5rem);
+  margin: 6.25rem auto;
 }
 
 @media (min-width: $monitor-breakpoint) {

@@ -3,36 +3,36 @@
 .banner {
   display: flex;
   align-items: center;
-  height: 800px;
+  height: 50rem;
   background-size: cover;
   background-position: bottom;
-  border-bottom-right-radius: 300px;
-  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 18.75rem;
+  border-bottom-left-radius: 0;
 }
 
 .container {
-  width: calc(var(--max-width) - 40px);
+  width: calc(var(--max-width) - 2.5rem);
   margin: 0 auto;
 }
 
 .content {
-  width: calc(100% - 40px);
+  width: calc(100% - 2.5rem);
 }
 
 .title {
-  font-size: 50px;
-  line-height: 55px;
+  font-size: 3.125rem;
+  line-height: 3.5rem;
   font-family: var(--font-2);
 }
 
 .subtext {
-  margin: 20px 0;
+  margin: 1.25rem 0;
 }
 
 @media (min-width: $mobile-breakpoint) {
   .title {
-    font-size: 85px;
-    line-height: 90px;
+    font-size: 5.375rem;
+    line-height: 5.625rem;
   }
 }
 
@@ -40,7 +40,7 @@
 @media (min-width: $monitor-breakpoint) {
   .banner {
     border-bottom-right-radius: 0px;
-    border-bottom-left-radius: 300px;
+    border-bottom-left-radius: 18.75rem;
   }
 
   .container {
@@ -48,6 +48,6 @@
   }  
 
   .content {
-    width: 600px;
+    width: 37.5rem;
   }
 }

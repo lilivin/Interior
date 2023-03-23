@@ -13,7 +13,7 @@ function SingleTestimonial(props: {
     <div className={styles.container}>
       <div className={styles.user}>
         <img
-          src={require(`../../../../../../assets/${image}.png`)}
+          src={require(`../../../../../../assets/users/${image}.png`)}
           alt={name}
         />
         <div className={styles.userInfo}>

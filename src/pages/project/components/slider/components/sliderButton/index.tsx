@@ -1,5 +1,5 @@
 import styles from "./index.module.scss";
-import Arrow from "../../../../../../assets/secendary-color-arrow.svg";
+import Arrow from "../../../../../../assets/icons/secendary-color-arrow.svg";
 
 export const enum DirectionType {
   Next = "next",

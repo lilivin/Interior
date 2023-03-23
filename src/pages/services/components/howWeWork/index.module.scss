@@ -3,18 +3,18 @@
 .container {
   width: var(--max-width);
   background: var(--primary-3);
-  margin: 100px auto;
-  padding: 60px 20px;
-  border-radius: 70px;
+  margin: 6.25rem auto;
+  padding: 3.75rem 1.25rem;
+  border-radius: 4.375rem;
   text-align: center;
 }
 
 .steps {
-  margin-top: 40px;
+  margin-top: 2.5rem;
 }
 
 @media (min-width: $tablet-breakpoint) {
   .container {
-    padding: 60px 115px;
+    padding: 3.75rem 7.25rem;
   }
 }
