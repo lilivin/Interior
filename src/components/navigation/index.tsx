@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import { NavLink } from "react-router-dom";
 import Hamburger from "../hamburger";
 import Logo from "../logo";
@@ -8,6 +8,7 @@ import styles from "./index.module.scss";
 function Navigation() {
   const [scroll, setScroll] = useState(false);
   const [isOpen, setIsOpen] = useState(false);
+  const { pathname } = useLocation();
 
   useEffect(() => {
     if (typeof window !== "undefined") {
@@ -16,6 +17,10 @@ function Navigation() {
       );
     }
   }, []);
+
+  useEffect(() => {
+    setIsOpen(false)
+  }, [pathname])
 
   return (
     <div className={`${styles.navigation} ${scroll && styles.scroll}`}>
