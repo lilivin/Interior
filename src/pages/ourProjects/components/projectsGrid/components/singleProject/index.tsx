@@ -21,7 +21,7 @@ function SingleProject(props: { project: Project }) {
           <Header type={HeaderType.Header03}>{project.title}</Header>
           <p>{truncate(project.description, 50)}</p>
         </div>
-        <IconArrowButton href={`http://localhost:3000/project/${project.id}`} />
+        <IconArrowButton href={`${process.env.REACT_APP_HOSTNAME_URL}/project/${project.id}`} />
       </div>
     </div>
   );

@@ -25,7 +25,7 @@ function Pagination(props: {
         return (
           <li className={`${paginationNumber === current && styles.current}`}>
             <Link
-              to={`http://localhost:3000/${page}/${paginationNumber}${
+              to={`${process.env.REACT_APP_HOSTNAME_URL}/${page}/${paginationNumber}${
                 currentCategory ? `?category=${currentCategory}` : ""
               }`}
             >

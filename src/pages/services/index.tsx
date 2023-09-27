@@ -7,7 +7,7 @@ import { getServices, ServiceType } from "../../helpers/services";
 import HowWeWork from "./components/howWeWork";
 
 function Services() {
-  const URL = "http://localhost:3000/services/"
+  const URL = `${process.env.REACT_APP_HOSTNAME_URL}/services/`;
   return (
     <>
       <PageTitle

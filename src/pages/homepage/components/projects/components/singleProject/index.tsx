@@ -17,7 +17,7 @@ function SingleProject(props: {
           <Header type={HeaderType.Header03}>{title}</Header>
           <p className={styles.type}>{type}</p>
         </div>
-        <IconArrowButton href={`http://localhost:3000/project/${id}`} />
+        <IconArrowButton href={`${process.env.REACT_APP_HOSTNAME_URL}/project/${id}`} />
       </div>
     </div>
   );

@@ -21,7 +21,7 @@ function LastArticle(props: {id: string, image: string, shortDescription: string
           <p>{shortDescription}</p>
           <div className={styles.link}>
             <p className={styles.date}>{new Date(date).toDateString()}</p>
-            <IconArrowButton href={`http://localhost:3000/article/${id}`} />
+            <IconArrowButton href={`${process.env.REACT_APP_HOSTNAME_URL}/article/${id}`} />
           </div>
         </div>
       </div>
